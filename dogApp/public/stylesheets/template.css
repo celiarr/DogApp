@@ -1,0 +1,16 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70px 100%;
+    width: 100vw;
+  height: 100vh;
+}
+.rowOne{
+    background: pink;
+     grid-area: 1 / 1/ 1/ 1;
+}
+.rowTwo{
+  background: green;
+
+    grid-area: 2 / 1/ 2/ 2; 
+}

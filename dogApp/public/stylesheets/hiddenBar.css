@@ -1,0 +1,27 @@
+.dropDownMenu{
+    position: absolute;
+    display: inline-block;
+    right:0;
+    top:0;
+    
+}
+.menuImg{
+    width: 70px;
+    height: 70px;
+
+}
+
+.menuContent{
+    background: blueviolet;
+    position: absolute;
+        height: 0;
+        width: 70px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+  .dropDownMenu:hover .menuContent{
+  height: 100px;
+    
+   
+
+  }
