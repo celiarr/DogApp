@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign Up</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/signUp.css">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/template.css">
+
+  <script>
+function openCloseDropDown(id){
+  const dropDwnOne = document.getElementById("dropdown-1");
+  const dropDwnTwo = document.getElementById("dropdown-2");
+  const dropDwnThree = document.getElementById("dropdown-3");
+
+if(id === "dropdown-bttn-1"){
+  if(dropDwnOne.style.display === "block"){
+    dropDwnOne.style.display= "none";
+
+    }else{
+      dropDwnOne.style.display = "block";
+
+    }}
+    else if (id === "dropdown-bttn-2"){
+      if(dropDwnTwo.style.display === "block"){
+    dropDwnTwo.style.display= "none";
+
+    }else{
+      dropDwnTwo.style.display = "block";
+
+    }
+
+    }
+    else if (id === "dropdown-bttn-3"){
+      if(dropDwnThree.style.display === "block"){
+    dropDwnThree.style.display= "none";
+
+    }else{
+      dropDwnThree.style.display = "block";
+
+    }
+  }
+  }
+  </script>
+</head>
+<body>
+    <div class="grid-container">
+      <!-- -- navbar --->
+<div class="row-one">1
+
+</div>
+      <!-- -- middle --->
+<div class="row-two">2
+  <div class="dog-breeds"> <b>Dog Breeds: </b></div>
+  <div class="options-1">
+    <button class="dropdown-bttn" id="dropdown-bttn-1" onclick="openCloseDropDown(this.id)">Small Breeds</button>
+ <div class="dropdown-1" id="dropdown-1">
+
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"><p style="display: inline-block;">test1</p></div>
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test2</p></div>
+<div class="dropdown-item"><img  src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test4</p></div>
+
+ </div>
+  </div>
+  <div class="options-2">
+    <button class="dropdown-bttn" id="dropdown-bttn-2" onclick="openCloseDropDown(this.id)">Medium Breeds</button>
+ <div class="dropdown-2" id="dropdown-2">
+
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"><p style="display: inline-block;">test1</p></div>
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test2</p></div>
+<div class="dropdown-item"><img  src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test4</p></div>
+
+ </div>
+  </div>
+
+  <div class="options-3">
+    <button class="dropdown-bttn" id="dropdown-bttn-3" onclick="openCloseDropDown(this.id)">Large Breeds</button>
+ <div class="dropdown-3" id="dropdown-3">
+
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"><p style="display: inline-block;">test1</p></div>
+<div class="dropdown-item"><img src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test2</p></div>
+<div class="dropdown-item"><img  src="../public/images/one.png" style="width:40px; height:40px; display: inline-block;"> <p style="display: inline-block;">test4</p></div>
+
+ </div>
+  </div>
+  <button class="join-bttn"> join now</button>
+
+</div>
+</div>
+</div>
+</body>
+</html>

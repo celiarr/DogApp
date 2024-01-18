@@ -1,0 +1,116 @@
+.signUp-form{
+    background-color: yellow;
+    height: fit-content;
+    width: fit-content;
+  margin-left: 550px;
+    position: absolute;
+
+
+}
+.dog-breeds{
+    height: fit-content;
+    width: 100%;
+    background-color: blue;
+    color: aqua;
+    font-size: larger;
+    text-align: center;
+}
+.continue-bttn{
+    border:none;
+    background-color: transparent;
+    position: static;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 30%;
+    
+}
+
+.continue-bttn:active{
+    border: none;
+color: white;
+}
+.join-bttn{
+    border:none;
+    background-color: transparent;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top:550px;
+    margin-left: 550px;
+ 
+    
+}
+
+.join-bttn:active{
+    border: none;
+color: white;
+}
+.options-1{
+   left:100px;
+    position: absolute;
+   height: 100%;
+    width: fit-content;
+    display: inline-block;
+}
+.options-2{
+    left:300px;
+    position: absolute;
+   height: 100%;
+    width: fit-content;
+    display: inline-block;
+}
+.options-3{
+    left:600px;
+    position: absolute;
+   height: 100%;
+    width: fit-content;
+    display: inline-block;
+}
+.dropdown-bttn{
+    position: center;
+}
+
+.dropdown-1{
+    height: fit-content;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+
+}
+.dropdown-2{
+    height: fit-content;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+   
+    
+
+
+}
+.dropdown-3{
+    height: fit-content;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+
+}
+
+.dropdown-item{
+    position: relative;
+    height: fit-content;
+    width: 110px;
+    visibility: visible;
+    border: solid;
+    border-width: 0.1px;
+    border-color: black  
+}
+.dropdown-item:hover{
+    border: solid;
+    border-color: black  
+}
+.dropdown-item:active{
+    visibility: hidden;
+}

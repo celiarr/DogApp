@@ -1,0 +1,99 @@
+.account-center{
+    border: solid;
+    border-color: black;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 50px;
+
+
+
+
+
+}
+.account-middle{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    border: solid;
+    border-color: black;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    gap: 50px;
+
+
+
+
+
+}
+.account-options{
+    background-color: transparent;
+    border-color: black;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.account-options:active{
+     font-size: 0; 
+    height: 30px;
+    width: 100px;
+}
+.save-continue{
+    margin-left:500px;
+    position: static;
+    border: none;
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+.save-continue:active{
+    border: none;
+    color: white;
+}
+.change-bttn{
+    border: solid;
+    border-color: black;
+    background-color: transparent;
+    height: 30px;
+    width: 80px;
+    position: relative;
+    display: inline-block;
+    margin-left: 140px;
+ 
+}
+.change-bttn:active{
+    font-size: 0; 
+    border: none;
+
+}
+.account-label{
+    display: inline-block;
+
+    position: relative;
+}
+.dog-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.change-pass{ /**/
+    margin-left: 0;
+    border: solid;
+    border-color: black;
+    background-color: transparent;
+    height: 30px;
+    width: 80px;
+    display: inline-block;  
+}
+.change-pass:active{
+    font-size: 0; 
+    border: none;
+}

@@ -1,0 +1,22 @@
+.terms-center{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+.title{
+    height: fit-content;
+    width: 100%;
+    background-color: blue;
+    color: aqua;
+    font-size: larger;
+    text-align: center;
+}
+.terms{
+    overflow: scroll;
+    width: 400px;
+    height: 300px;
+}

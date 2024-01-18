@@ -1,26 +1,43 @@
-.dropDownMenu{
+.drop-down-menu{
     position: absolute;
     display: inline-block;
     right:0;
     top:0;
     
 }
-.menuImg{
+.menu-img{
     width: 70px;
     height: 70px;
 
 }
 
-.menuContent{
+
+.menu-bttn{
+    color: #000;
+    border: none;
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+.menu-bttn:active{
+    border: none;
+    color: white;
+}
+
+
+
+
+
+.menu-content{
     background: blueviolet;
     position: absolute;
         height: 0;
-        width: 70px;
+        width: fit-content;
         overflow: hidden;
         transition: all 0.3s ease-in-out;
     }
-  .dropDownMenu:hover .menuContent{
-  height: 100px;
+  .drop-down-menu:hover .menu-content{
+  height: fit-content;
     
    
 
