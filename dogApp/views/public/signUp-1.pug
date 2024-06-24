@@ -1,0 +1,36 @@
+doctype html
+head
+  title Sign Up
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/template.css')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/signUp.css')
+.grid-container
+  // -- navbar -
+  .row-one
+    | 1
+  // -- middle -
+  .row-two
+    | 2
+    .signUp-form
+      form(action='' method='POST')
+        p First Name:
+        input#firstName
+        br
+        br
+        p Last Name: 
+        input#lastName
+        br
+        br
+        p E-mail: 
+        input#email
+        br
+        br
+        p Password(6 or more characters)
+        input#password
+        br
+        br
+      a(href='/signUp-2')
+        button#submit.continue-bttn(type='button') Continue
+        a(onclick="event.preventDefault();this.closest('form').submit();")

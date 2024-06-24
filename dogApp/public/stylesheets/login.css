@@ -1,0 +1,57 @@
+.login-img{
+    background-image: url(../images/Image\ 3-31-24\ at\ 11.06\ PM.jpg);
+    background-repeat: no-repeat;
+    left: 0;
+}
+.login-form{
+position: relative;
+margin: auto;
+margin-left: 40%;
+}
+.login-input{ 
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    border-radius:25px;  
+    border: none;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+} 
+.gradient-border{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius:25px;  
+    background: linear-gradient(to right, black, white); 
+}
+.login-bttns{
+    margin-top: 30px;
+    margin-left: 5px;
+    background: linear-gradient(to right, rgb(182, 230, 244), black);
+     color: black;
+     border-radius: 25px;
+     width: 90px;
+     height: 50px;
+border: none;    
+}
+.login-bttns:active{
+    background:  rgb(77, 75, 75);;
+    color:  rgb(77, 75, 75);
+    border: solid;
+    border-color: rgb(77, 75, 75);
+}
+.login-img{
+    background-image: url(../images/backgroundDogs.png);
+    background-size:cover;
+    background-position-x: left 50px;
+    background-position-y: top -53px;        
+    background-repeat: no-repeat;
+    
+
+
+  
+}

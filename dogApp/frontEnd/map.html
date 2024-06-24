@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>Map</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/template.css">
+  <link rel="stylesheet" type="text/css" href="../public/stylesheets/map.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+    <div class="grid-container">
+      <!-- -- navbar --->
+      <div class="row-one">
+        <h2 class="app-name">Woolf Alarm</h2>
+          
+          <img class="menu-img logo-img" src="../public/images/dog.png">
+      
+      </div>
+      <!-- -- middle --->
+<div class="row-two">
+  <div class="map" id="map"> <input type="image" src="../public/images/openSideBar.png" id="sidebar-button" class="sidebar-button" onclick="openMessageBox()"/>
+  </div>
+    <div class="message-sidebar" id="message-sidebar"><button onclick="" class="exit-sidebar"> X </button> 
+<p>Alerts Sent:</p>
+<div class="alert-sent" id="alert-sent">
+  <img class="alerts-dog-img" id="alert-sent-img"> <button>Delete</button>
+  </div>
+  <div class="alert-received" id="alert-received">
+<p>Alerts Received:</p>
+<img class="alerts-dog-img" id="alert-received-img"> <button>Delete</button> <button onclick="messageOptions()">respond with a message</button>
+</div>
+    <p>pick a distance to display dogs within that radius</p>
+
+      <button>0.2 miles</button>
+      <button>0.3 miles</button>
+    <button>0.4 miles</button>
+    <hr>
+    
+    </div>
+    <!-- -- map section ---> 
+
+<button onclick="messageOptions()">test</button>
+
+</div>
+</div>
+<script type="text/javascript" src="../public/javascripts/map.js"></script>
+
+

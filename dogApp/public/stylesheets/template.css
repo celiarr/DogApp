@@ -6,11 +6,33 @@
   height: 100vh;
 }
 .row-one{
-    background: pink;
+  background: linear-gradient(to right, rgb(182, 230, 244), black); 
+  position: relative;
      grid-area: 1 / 1/ 1/ 1;
 }
 .row-two{
-  background: green;
+  background: white;
     grid-area: 2 / 1/ 2/ 2; 
+
+}
+
+.logo-img{
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 90%;
+  width:50px;
+  height: 50px;
+}
+@font-face {
+  font-family: 'MyBcAlphapipe';
+  src: url('../images/Quicksand-VariableFont_wght.ttf');
+
+}
+.app-name{
+  position: absolute;
+  top: 10px;
+  margin-left: 20%;
+  font-family: 'MyBcAlphapipe';
 
 }

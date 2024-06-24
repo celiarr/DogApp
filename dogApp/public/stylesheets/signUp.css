@@ -7,14 +7,6 @@
 
 
 }
-.dog-breeds{
-    height: fit-content;
-    width: 100%;
-    background-color: blue;
-    color: aqua;
-    font-size: larger;
-    text-align: center;
-}
 .continue-bttn{
     border:none;
     background-color: transparent;
@@ -29,22 +21,7 @@
     border: none;
 color: white;
 }
-.join-bttn{
-    border:none;
-    background-color: transparent;
-    position: absolute;
-    height: fit-content;
-    width: fit-content;
-    top:550px;
-    margin-left: 550px;
- 
-    
-}
 
-.join-bttn:active{
-    border: none;
-color: white;
-}
 .options-1{
    left:100px;
     position: absolute;
@@ -66,8 +43,18 @@ color: white;
     width: fit-content;
     display: inline-block;
 }
+.options-4{
+    margin-top: 70px;
+    left:100px;
+    position: absolute;
+   height: 100%;
+    width: fit-content;
+    display: inline-block;
+}
 .dropdown-bttn{
     position: center;
+    white-space: nowrap;
+
 }
 
 .dropdown-1{
@@ -76,6 +63,7 @@ color: white;
     z-index: 1;
     position: absolute;
     display: none;
+    
 
 }
 .dropdown-2{
@@ -97,7 +85,14 @@ color: white;
     display: none;
 
 }
-
+.dropdown-4{
+    
+    height: fit-content;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
 .dropdown-item{
     position: relative;
     height: fit-content;
@@ -113,4 +108,91 @@ color: white;
 }
 .dropdown-item:active{
     visibility: hidden;
+}
+.content-1{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    margin-left: 300px;
+}
+.content-2{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    margin-top: 330px;
+}
+.content-3{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 400px;  
+
+    border: solid;
+    border-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px 50px;
+  
+}
+.content-3-rows{
+
+ 
+    border: solid;
+    border-color: black;
+   
+  
+}
+.question-1{
+position: absolute;
+margin-top: 10px;
+white-space: nowrap;
+}
+.question-2{
+    position: absolute;
+    margin-top: 280px;
+    white-space: nowrap;
+
+}
+
+.continue-2-bttn{
+    border:none;
+    background-color: transparent;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top:200px;
+    left:400px;
+ 
+    
+}
+
+.continue-2-bttn:active{
+    border: none;
+color: white;
+}
+.location-yes{
+position: absolute;
+margin-left: 200px;
+
+}
+.location-no{
+    position: absolute;
+    margin-left: 200px;
+   
+}
+.submit-profile{
+    position: absolute;
+    margin-left: 160px;  
+}
+
+.signUp-3-bttns{
+    background: linear-gradient(to right, rgb(182, 230, 244), black);
+     color: black;
+     border-radius: 25px;
+border: none;    
+}
+.signUp-3-bttns:active{
+    background:  rgb(77, 75, 75);;
+    color:  rgb(77, 75, 75);
+    border: solid;
+    border-color: rgb(77, 75, 75);
 }

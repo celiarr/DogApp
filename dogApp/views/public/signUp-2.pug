@@ -1,0 +1,80 @@
+doctype html
+head
+  title Sign Up
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/signUp.css')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/template.css')
+  script.
+    function openCloseDropDown(id){
+    const dropDwnOne = document.getElementById("dropdown-1");
+    const dropDwnTwo = document.getElementById("dropdown-2");
+    const dropDwnThree = document.getElementById("dropdown-3");
+    if(id === "dropdown-bttn-1"){
+    if(dropDwnOne.style.display === "block"){
+    dropDwnOne.style.display= "none";
+    }else{
+    dropDwnOne.style.display = "block";
+    }}
+    else if (id === "dropdown-bttn-2"){
+    if(dropDwnTwo.style.display === "block"){
+    dropDwnTwo.style.display= "none";
+    }else{
+    dropDwnTwo.style.display = "block";
+    }
+    }
+    else if (id === "dropdown-bttn-3"){
+    if(dropDwnThree.style.display === "block"){
+    dropDwnThree.style.display= "none";
+    }else{
+    dropDwnThree.style.display = "block";
+    }
+    }
+    }
+.grid-container
+  // -- navbar -
+  .row-one
+    | 1
+  // -- middle -
+  .row-two
+    | 2
+    .dog-breeds
+      b Dog Breeds: 
+    .options-1
+      button#dropdown-bttn-1.dropdown-bttn(onclick='openCloseDropDown(this.id)') Small Breeds
+      #dropdown-1.dropdown-1
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test1
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test2
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test4
+    .options-2
+      button#dropdown-bttn-2.dropdown-bttn(onclick='openCloseDropDown(this.id)') Medium Breeds
+      #dropdown-2.dropdown-2
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test1
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test2
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test4
+    .options-3
+      button#dropdown-bttn-3.dropdown-bttn(onclick='openCloseDropDown(this.id)') Large Breeds
+      #dropdown-3.dropdown-3
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test1
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test2
+        .dropdown-item
+          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          p(style='display: inline-block;') test4
+    button.join-bttn  join now

@@ -1,0 +1,70 @@
+
+.message-sidebar{
+background-color: aquamarine;
+      top: 1;
+      left:0;
+      z-index: 1;
+      height: fit-content;
+      width: 180px;
+      transition: none;
+      transform: translateX(-100%);
+      overflow: hidden;  
+
+      position: static; 
+}
+.map{
+    position: relative;
+    margin-right: 0;
+    margin-top: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.sidebar-button{
+    height: 50px;
+    width: 20px; 
+}
+.sidebar-button:active{
+border:solid;
+}
+.exit-sidebar{
+    border: solid;
+    border-radius: 25px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 145px;
+    margin-top: 5px;
+
+}
+.exit-sidebar:active{
+    background-color: black;
+}
+.alerts-dog-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.message-options{
+    height: fit-content;
+    width: fit-content;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto auto auto;
+border: solid;
+box-shadow: 20px 20px 50px grey;
+
+}
+.options-bttn{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.options-bttn:active{
+    color: white;
+}
+.alert-options{
+    border: solid;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto;
+}
