@@ -7,7 +7,6 @@
   <link rel="stylesheet" type="text/css" href="../public/stylesheets/template.css">
   <link rel="stylesheet" type="text/css" href="../public/stylesheets/map.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 </head>
     <div class="grid-container">
       <!-- -- navbar --->
@@ -19,7 +18,7 @@
       </div>
       <!-- -- middle --->
 <div class="row-two">
-  <div class="map" id="map"> <input type="image" src="../public/images/openSideBar.png" id="sidebar-button" class="sidebar-button" onclick="openMessageBox()"/>
+  <div class="map" id="mapp"> <input type="image" src="../public/images/openSideBar.png" id="sidebar-button" class="sidebar-button" onclick="openMessageBox()"/>
   </div>
     <div class="message-sidebar" id="message-sidebar"><button onclick="" class="exit-sidebar"> X </button> 
 <p>Alerts Sent:</p>
@@ -39,11 +38,10 @@
     
     </div>
     <!-- -- map section ---> 
-
+   <div id="map"></div>
 <button onclick="messageOptions()">test</button>
 
 </div>
 </div>
 <script type="text/javascript" src="../public/javascripts/map.js"></script>
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCtI37-6bAv9jWw-iYC895OoUogO5PdQ&map_ids=53f52a9c8d6ca828&callback=initMap"> </script>

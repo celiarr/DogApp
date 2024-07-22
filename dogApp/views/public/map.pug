@@ -1,0 +1,39 @@
+doctype html
+head
+  title Map
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/template.css')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/map.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js')
+.grid-container
+  // -- navbar -
+  .row-one
+    h2.app-name Woolf Alarm
+    img.menu-img.logo-img(src='/images/dog.png')
+  // -- middle -
+  .row-two
+    #mapp.map
+      input#sidebar-button.sidebar-button(type='image' src='/images/openSideBar.png' onclick='openMessageBox()')
+    #message-sidebar.message-sidebar
+      button.exit-sidebar(onclick='')  X 
+      p Alerts Sent:
+      #alert-sent.alert-sent
+        img#alert-sent-img.alerts-dog-img
+        button Delete
+      #alert-received.alert-received
+        p Alerts Received:
+        img#alert-received-img.alerts-dog-img
+        button Delete
+        button(onclick='messageOptions()') respond with a message
+      p pick a distance to display dogs within that radius
+      button 0.2 miles
+      button 0.3 miles
+      button 0.4 miles
+      hr
+    // -- map section -
+    #map
+    button(onclick='messageOptions()') test
+script(type='text/javascript' src='/javascripts/map.js')
+script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCtI37-6bAv9jWw-iYC895OoUogO5PdQ&map_ids=d86da7b08d23b8f2&callback=initMap')
