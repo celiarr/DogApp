@@ -11,7 +11,8 @@
      grid-area: 1 / 1/ 1/ 1;
 }
 .row-two{
-  background: white;
+
+  background: none;
     grid-area: 2 / 1/ 2/ 2; 
 
 }
@@ -34,5 +35,1117 @@
   top: 10px;
   margin-left: 20%;
   font-family: 'MyBcAlphapipe';
+
+}
+.merged-dogs{
+  background-size: 100% 100%;
+  background: url('../images/mergedDogs.jpg');
+  background-repeat: no-repeat;
+  color: white;
+
+}
+.smiling-lady{
+  background-size: 100% 100%;
+  background: url('../images/smiling-blonde-young-woman-holding-map-hand-showing-mobile-blank-white-screen.jpg');
+  background-repeat: no-repeat;
+  color: white;
+
+}
+@media only screen and (min-width: 300px) and (max-width:500px){
+
+  .merged-dogs{
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 320px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{ 
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.app-name-one{ 
+  font-size: 23px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 25px;
+  margin-top: 10px;
+
+}
+
+.app-name{ 
+  font-size: 17px;
+  margin-left: 90px;
+top: 25%;
+}
+.logo-img{ 
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 200px;
+  width:32px;
+  height: 32px;
+}
+.navbar-acc{ 
+  margin-left: 60px;
+ top: 70%;
+ position: absolute;
+font-size: 13px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{/**/
+  margin-left: 130px;
+  top: 70%;
+  position: absolute;
+ font-size: 13px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ /**/
+  margin-left: 170px;
+  top: 70%;
+  position: absolute;
+ font-size: 13px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ 
+  font-size: 13px;
+  margin-left: 50px;
+  margin-top: -10px;
+  /*white-space: pre;*/
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 13px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 500px) and (max-width:650px){
+  
+  .merged-dogs{
+    width: 100%;
+    height: 450px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 550px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{ /**/
+  width: 70px;
+  height: 70px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.app-name-one{ 
+  font-size: 30px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 70px;
+  margin-top: 20px;
+
+}
+
+.app-name{ /**/
+  font-size: 23px;
+  margin-left: 50px;
+top: 25%;
+}
+.logo-img{ /**/
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 15px;
+  margin-left: 90%;
+  width:32px;
+  height: 32px;
+}
+.navbar-acc{ /**/
+  margin-left: 210px;
+ top: 25%;
+ position: absolute;
+font-size: 15px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{/**/
+  margin-left: 290px;
+  top: 25%;
+  position: absolute;
+ font-size: 15px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ /**/
+  margin-left: 340px;
+  top: 25%;
+  position: absolute;
+ font-size: 15px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ 
+  font-size: 15px;
+  margin-left: 70px;
+  margin-top: 40px;
+  white-space: pre;
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 15px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 500px;  
+  font-size: 15px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 15px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 15px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 15px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 15px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
+
+
+
+}
+@media only screen and (min-width: 650px) and (max-width:800px){
+  
+  .merged-dogs{
+    width: 100%;
+    height: 450px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{ /**/
+  width: 90px;
+  height: 90px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.app-name-one{ /**/
+  font-size: 35px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 70px;
+}
+
+.app-name{ /**/
+  font-size: 26px;
+  margin-left: 100px;
+top: 25%;
+}
+.logo-img{ 
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 90%;
+  width:45px;
+  height: 45px;
+}
+.navbar-acc{ /**/
+  margin-left: 270px;
+ top: 25%;
+ position: absolute;
+font-size: 17px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{/**/
+  margin-left: 360px;
+  top: 25%;
+  position: absolute;
+ font-size: 17px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ /**/
+  margin-left: 410px;
+  top: 25%;
+  position: absolute;
+ font-size: 17px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ 
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: 40px;
+  white-space: pre;
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 500px;  
+  font-size: 17px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 17px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 17px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 17px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 17px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width:1000px){ /**/
+  .merged-dogs{
+    width: 100%;
+    height: 650px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 1200px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{ 
+  width: 100px;
+  height: 100px;
+  margin-left: 135px;
+  margin-top: 30px;
+}
+.app-name-one{ 
+  font-size: 40px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 70px;
+}
+
+.app-name{ 
+  font-size: 30px;
+  margin-left: 100px;
+top: 25%;
+}
+.logo-img{ 
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 90%;
+  width:45px;
+  height: 45px;
+}
+.navbar-acc{ 
+  margin-left: 400px;
+ top: 25%;
+ position: absolute;
+font-size: 20px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{
+  margin-left: 550px;
+  top: 25%;
+  position: absolute;
+ font-size: 20px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ 
+  margin-left: 650px;
+  top: 25%;
+  position: absolute;
+ font-size: 20px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ 
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 40px;
+  white-space: pre;
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 20px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1300px){ /**/
+  .merged-dogs{
+    width: 100%;
+    height: 650px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 1200px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{ /**/
+  width: 100px;
+  height: 100px;
+  margin-left: 135px;
+  margin-top: 30px;
+}
+.app-name-one{ /**/
+  font-size: 40px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 70px;
+}
+
+.app-name{ /**/
+  font-size: 30px;
+  margin-left: 100px;
+top: 25%;
+}
+.logo-img{ 
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 90%;
+  width:45px;
+  height: 45px;
+}
+.navbar-acc{ /**/
+  margin-left: 400px;
+ top: 25%;
+ position: absolute;
+font-size: 20px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{/**/
+  margin-left: 550px;
+  top: 25%;
+  position: absolute;
+ font-size: 20px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ /**/
+  margin-left: 650px;
+  top: 25%;
+  position: absolute;
+ font-size: 20px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ 
+  font-size: 25px;
+  margin-left: 70px;
+  margin-top: 40px;
+  white-space: pre;
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 20px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
+
+ 
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width:1502px){ /**/
+  .merged-dogs{
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+
+  }
+  .smiling-lady{
+    width: 100%;
+    height: 1300px;
+    background-size: 100% 100%; 
+  }
+.logo-img-home{
+  width: 120px;
+  height: 120px;
+  margin-left: 160px;
+  margin-top: 20px;
+}
+.app-name-one{ /**/
+  font-size: 50px;
+  font-family: 'MyBcAlphapipe';
+  margin-left: 70px;
+}
+
+.app-name{ /**/
+  font-size: 35px;
+  margin-left: 100px;
+top: 25%;
+}
+.logo-img{ /**/
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10px;
+  margin-left: 90%;
+  width:45px;
+  height: 45px;
+}
+.navbar-acc{ /**/
+  margin-left: 550px;
+ top: 25%;
+ position: absolute;
+font-size: 24px;
+text-decoration: none;
+color: black; 
+cursor: pointer;
+}
+.navbar-acc:active{
+  color: white;
+}
+.navbar-map{/**/
+  margin-left: 700px;
+  top: 25%;
+  position: absolute;
+ font-size: 24px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-map:active{
+  color: white;
+}
+.navbar-terms{ /**/
+  margin-left: 800px;
+  top: 25%;
+  position: absolute;
+ font-size: 24px;
+ text-decoration: none;
+ color: black; 
+ cursor: pointer;
+}
+.navbar-terms:active{
+  color: white;
+}
+p{ /**/
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 40px;
+  white-space: pre;
+
+}
+
+.home-info-two{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 600px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-one{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  position: absolute; 
+  margin-top: 20px; 
+  left: 0;
+  background:#e8f4f8;
+  color: #286e84;
+  height: fit-content;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+
+}
+.home-info-three{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 1400px; 
+
+}
+
+.home-info-four{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2000px; 
+
+}
+.home-info-five{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 500px;
+  width: 500px;  
+  font-size: 20px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 2600px; 
+
+}
+
+.home-info-header{
+  font-size: 20px;
+}
+.paw-img{
+ height: 100px;
+width: 100px;
+}
+.img-container{
+  position: absolute; 
+margin-left: 150px;
+margin-top: 300px; 
+
+
+}
+
 
 }

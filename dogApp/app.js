@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var signUpOneRouter = require('./routes/signUp-1');
 var signUpTwoRouter = require('./routes/signUp-2');
 var mapRouter = require('./routes/map');
+var homeRouter = require('./routes/home');
 
 var app = express();
 
@@ -22,11 +23,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', mapRouter);
+app.use('/', homeRouter);
 app.use('/users', usersRouter);
 app.use('/signUp-1', signUpOneRouter);
 app.use('/signUp-2', signUpTwoRouter);
 app.use('/map',mapRouter);
+app.use('/home',homeRouter);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

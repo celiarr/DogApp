@@ -1,57 +1,646 @@
-.login-img{
-    background-image: url(../images/Image\ 3-31-24\ at\ 11.06\ PM.jpg);
-    background-repeat: no-repeat;
-    left: 0;
-}
-.login-form{
-position: relative;
-margin: auto;
-margin-left: 40%;
+
+p{
+    color: white;
+    margin-left: auto;
 }
 .login-input{ 
-    width: 190px;
+    background: none;
+    width: 170px;
     height: 40px;
     position: absolute;
     border-radius:25px;  
-    border: none;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    border: 1px solid white;
+   
 
 } 
-.gradient-border{
-    position: relative;
-    width: 200px;
-    height: 50px;
-    border-radius:25px;  
-    background: linear-gradient(to right, black, white); 
-}
+
 .login-bttns{
+    background: none;
     margin-top: 30px;
     margin-left: 5px;
-    background: linear-gradient(to right, rgb(182, 230, 244), black);
-     color: black;
+     color: white;
      border-radius: 25px;
-     width: 90px;
-     height: 50px;
-border: none;    
+     border: 1px solid white;
+     width: 80px;
+     height: 40px;
 }
 .login-bttns:active{
-    background:  rgb(77, 75, 75);;
-    color:  rgb(77, 75, 75);
-    border: solid;
-    border-color: rgb(77, 75, 75);
+    background: white;
 }
 .login-img{
-    background-image: url(../images/backgroundDogs.png);
-    background-size:cover;
-    background-position-x: left 50px;
-    background-position-y: top -53px;        
-    background-repeat: no-repeat;
-    
+    background-color: #b9b498;
 
+}
 
+@media only screen and (min-width: 300px) and (max-width:500px){
   
+    body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: -110px 70px;
+         background-size: 160% 400px;
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            position: absolute;
+            
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 200px;
+            margin-left: 80px;
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 270px;
+            margin-left: 80px;
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 150px;
+            height: 30px;
+            position: absolute;
+            margin-top: 20px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 70px;
+             height: 30px;
+             font-family: 'Open Sans';
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+    
+    
+        }
+        .signup-bttn{
+            margin-top: 330px;
+            margin-left: 87px;
+            position: absolute;
+        
+        
+        }
+        .login-bttn{
+            margin-top: 330px;
+            margin-left: 165px;
+            position: absolute;
+        
+        }    
+}  
+/*
+@media only screen and (min-width: 400px) and (max-width:500px){
+  
+  
+body{  
+    background-image: url('../images/login-Background.jpg');      
+    background-color: #bafae1;
+    background-repeat: no-repeat;
+    background-position: -100px 70px;
+     background-size: 140% 400px;
+    }
+    p{
+        color: black;
+        font-family: 'Open Sans';
+        position: absolute;
+        
+    }
+  
+    
+    .input-email{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        margin-top: 135px;
+        margin-left: 80px;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+    }
+    .input-password{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        margin-top: 200px;
+        margin-left: 80px;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+    }
+    .login-input{ 
+        background: none;
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        margin-top: 20px;
+        border-radius:25px;  
+        border: 0.5px solid black;
+        
+       
+
+
+    
+    } 
+    
+    .login-bttns{
+        background: none;
+         color: black;
+         border-radius: 25px;
+         border: 0.5px solid black;
+         width: 70px;
+         height: 30px;
+         font-family: 'Open Sans';
+    }
+    .login-bttns:active{
+        background:white;
+        color: white;
+        border: 1px solid white;
+
+
+    }
+    .signup-bttn{
+        margin-top: 260px;
+        margin-left: 87px;
+        position: absolute;
+    
+    
+    }
+    .login-bttn{
+        margin-top: 260px;
+        margin-left: 165px;
+        position: absolute;
+    
+    
+    }
+
+}*/
+
+@media only screen and (min-width: 500px) and (max-width:650px){
+    body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: -80px 70px;
+         background-size: 130% 480px;
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            font-size: 17px;
+            position: absolute;
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 170px;
+margin-left: 160px;          
+  height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 270px;
+            margin-left: 160px;          
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 200px;
+            height: 40px;
+            position: absolute;
+            margin-top: 80px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 90px;
+             height: 40px;
+             font-family: 'Open Sans';
+             font-size: 17px;
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+            
+    
+        }
+
+.signup-bttn{
+    margin-top: 415px;
+    margin-left: 160px;
+    position: absolute;
+
+
+}
+.login-bttn{
+    margin-top: 415px;
+    margin-left: 280px;
+    position: absolute;
+
+
+}
+}
+@media only screen and (min-width: 650px) and (max-width:800px){
+  
+    body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: -180px 70px;
+         background-size: 145% 630px;
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            font-size: 21px;
+            position: absolute;
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 250px;
+margin-left: 270px;          
+  height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 350px;
+            margin-left: 270px;          
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 230px;
+            height: 40px;
+            position: absolute;
+            margin-top: 80px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 100px;
+             height: 40px;
+             font-family: 'Open Sans';
+             font-size: 21px;
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+            
+    
+        }
+
+.signup-bttn{
+    margin-top: 500px;
+    margin-left: 280px;
+    position: absolute;
+
+
+}
+.login-bttn{
+    margin-top: 500px;
+    margin-left: 390px;
+    position: absolute;
+
+
+}
+
+
+}
+
+@media only screen and (min-width: 800px) and (max-width:1000px){ /**/
+
+    body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: -140px 70px;
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            font-size: 25px;
+            position: absolute;
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 290px;
+margin-left: 270px;          
+  height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 400px;
+            margin-left: 270px;          
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 280px;
+            height: 50px;
+            position: absolute;
+            margin-top: 80px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 120px;
+             height: 45px;
+             font-family: 'Open Sans';
+             font-size: 25px;
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+            
+    
+        }
+
+.signup-bttn{
+    margin-top: 550px;
+    margin-left: 280px;
+    position: absolute;
+
+
+}
+.login-bttn{
+    margin-top: 550px;
+    margin-left: 410px;
+    position: absolute;
+
+
+}
+  
+
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1300px){ /**/
+  
+
+ body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+        background-size: 100% 800px;
+
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            font-size: 25px;
+            position: absolute;
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 290px;
+margin-left: 420px;          
+  height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 400px;
+            margin-left: 420px;          
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 280px;
+            height: 50px;
+            position: absolute;
+            margin-top: 80px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 120px;
+             height: 45px;
+             font-family: 'Open Sans';
+             font-size: 25px;
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+            
+    
+        }
+
+.signup-bttn{
+    margin-top: 550px;
+    margin-left: 430px;
+    position: absolute;
+
+
+}
+.login-bttn{
+    margin-top: 550px;
+    margin-left: 580px;
+    position: absolute;
+
+
+}
+  
+
+
+ 
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width:3000px){ /**/
+
+
+    body{  
+        background-image: url('../images/login-Background.jpg');      
+        background-color: #bafae1;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+        background-size: 100% 900px;
+
+        }
+        p{
+            color: black;
+            font-family: 'Open Sans';
+            font-size: 25px;
+            position: absolute;
+        }
+      
+        
+        .input-email{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 400px;
+margin-left: 500px;          
+  height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .input-password{
+            display:grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            margin-top: 500px;
+            margin-left: 500px;          
+            height: fit-content;
+            width: fit-content;
+            position: absolute;
+        }
+        .login-input{ 
+            background: none;
+            width: 280px;
+            height: 50px;
+            position: absolute;
+            margin-top: 80px;
+            border-radius:25px;  
+            border: 0.5px solid black;
+            
+           
+    
+    
+        
+        } 
+        
+        .login-bttns{
+            background: none;
+             color: black;
+             border-radius: 25px;
+             border: 0.5px solid black;
+             width: 120px;
+             height: 45px;
+             font-family: 'Open Sans';
+             font-size: 25px;
+        }
+        .login-bttns:active{
+            background:white;
+            color: white;
+            border: 1px solid white;
+            
+    
+        }
+
+.signup-bttn{
+    margin-top: 650px;
+    margin-left: 510px;
+    position: absolute;
+
+
+}
+.login-bttn{
+    margin-top: 650px;
+    margin-left: 650px;
+    position: absolute;
+
+
+}
+  
+
+
 }
