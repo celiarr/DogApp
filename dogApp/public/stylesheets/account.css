@@ -1,6 +1,4 @@
-.account-center{
-    border: solid;
-    border-color: black;
+.account-center{ 
     margin: auto;
     height: fit-content;
     width: fit-content;
@@ -14,86 +12,779 @@
 
 
 }
-.account-middle{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto auto;
-    border: solid;
-    border-color: black;
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    gap: 50px;
 
+.account-options{ 
+    background-color: #fafaf6;
+    border-radius: 20px;
+    border: 1px solid #e6e6e3;
+    height: 200px;
+    width: 400px;
+    left: 0;
+}
+.options-personal-info{
+    background-color: #fafaf6;
+    border-radius: 20px;
+    border: 1px solid #e6e6e3;
+    height: 200px;
+    width: 400px;
+    left: 0;
+}
 
-
-
+.account-options-img{
+    left:0;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #e6e6e3;
+    border-radius: 20px;
+background-color: #78a0c6;
 
 }
-.account-options{
-    background-color: transparent;
-    border-color: black;
-    height: fit-content;
-    width: fit-content;
-    margin: auto;
+
+.profile-summary{
+    right:0;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #e6e6e3;
+    border-radius: 20px;
+    background-color: #fafaf6;
+
 }
-.account-options:active{
-     font-size: 0; 
-    height: 30px;
-    width: 100px;
-}
-.save-continue{
-    margin-left:500px;
-    position: static;
-    border: none;
-    background-color: transparent;
-    height: fit-content;
-    width: fit-content;
-}
-.save-continue:active{
-    border: none;
+body{  
+    background-image: url('../images/signup-background.jpg');      
+    background-color: #bafae1;
+    background-repeat: no-repeat;
+    background-position: 0px 70px;
+     background-size: 100% 100%;
+    }
+ .account-save{
+    border-radius: 8px;
+    background-color: #0077ff;
     color: white;
-}
-.change-bttn{
-    border: solid;
-    border-color: black;
-    background-color: transparent;
-    height: 30px;
-    width: 80px;
-    position: relative;
-    display: inline-block;
-    margin-left: 140px;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+
+ }
+ .account-save:active{
+    border: none;
+    color: #0077ff;
+ }
+@media only screen and (min-width: 300px) and (max-width:500px){
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 340px;
+        }
+    .account-center{
+        position: relative;
+        margin: auto;
+        top: 60px;
+    }
+        .account-options{ 
+            background-color: #fafaf6;
+            border-radius: 20px;
+            border: 1px solid #e6e6e3;
+            position: relative;
+            height: 90px;
+            width: 300px;
+            left: 0;
+        }
+        .options-personal-info{
+            background-color: #fafaf6;
+            border-radius: 20px;
+            border: 1px solid #e6e6e3;
+            position: relative;
+            height: 350px;
+            width: 300px;
+            left: 0;
+
+        }
+        .profile-summary{
+            position: relative;
+        }
+        .account-options-img{
+            left:0;
+            height: 90px;
+            width: 90px;
+            border: 1px solid #e6e6e3;
+            border-radius: 20px;
+        background-color: #78a0c6;
+        background-image: url('../images/others-marker.png');
+        background-size: 180% 180%;
+        background-repeat: no-repeat;
+        background-position: -30px -25px; /*x, y*/
+        position: absolute;
+
  
+        }
+.options-personal-info-img{
+    left:0;
+    height: 350px;
+    width: 90px;
+    border: 1px solid #e6e6e3;
+    border-radius: 20px;
+background-color: #78a0c6;
+background-image: url('../images/others-marker.png');
+background-size: 300% 100%;
+background-repeat: no-repeat;
+background-position: -110px 0px; /*x, y*/
+position: absolute;
 }
-.change-bttn:active{
-    font-size: 0; 
-    border: none;
+.subsection-title{
+    position: absolute;
+     left: 50px;
+     top: 30px;
+}
+.email{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+     
 
 }
-.account-label{
-    display: inline-block;
-
-    position: relative;
+.first-name{
+    position: absolute;
+    top: 180px;
+    left: 50px;
 }
-.dog-pic{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
+.last-name{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+}
+.account-save{
+    position: absolute;
+    left: 60px;
+    top: 240px;
+    width: 180px;
+    height: 35px;
+}
+.subsection-title-personal-info{
+    position: absolute;
+    left: 50px;
+    bottom: 290px;  
+
+}
+.subsection-title-summary{
+    position: absolute;
+    left: 40px;
+    bottom: 240px; 
+
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width:650px){
+  
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 470px;
+        }
+
+        .account-center{
+            position: relative;
+            margin: auto;
+            top: 60px;
+        }
+            .account-options{ 
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 90px;
+                width: 330px;
+                left: 0;
+            }
+            .options-personal-info{
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 350px;
+                width: 300px;
+                left: 0;
+    
+            }
+            .profile-summary{
+                position: relative;
+            }
+            .account-options-img{
+                left:0;
+                height: 90px;
+                width: 90px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+            background-color: #78a0c6;
+            background-image: url('../images/others-marker.png');
+            background-size: 180% 180%;
+            background-repeat: no-repeat;
+            background-position: -30px -25px; /*x, y*/
+            position: absolute;
+    
+     
+            }
+    .options-personal-info-img{
+        left:0;
+        height: 350px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: -110px 0px; /*x, y*/
+    position: absolute;
+    }
+    .subsection-title{
+        position: absolute;
+         left: 50px;
+         bottom: 35px;
+    }
+    .subsection-title-personal-info{
+        position: absolute;
+        left: 50px;
+        bottom: 290px;  
+    }
+    .subsection-title-summary{
+        position: absolute;
+        left: 25px;
+        bottom: 230px; 
+    }
+    .email{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+         
+    
+    }
+    .first-name{
+        position: absolute;
+        top: 130px;
+        left: 50px;
+    }
+    .last-name{
+        position: absolute;
+        top: 220px;
+        left: 50px;
+    }
+    .account-save{
+        position: absolute;
+        left: 60px;
+        top: 240px;
+        width: 180px;
+        height: 35px;
+    }
+
+}
+@media only screen and (min-width: 650px) and (max-width:800px){
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 750px;
+        }
+
+        .account-center{
+            position: relative;
+            margin: auto;
+            top: 60px;
+        }
+            .account-options{ 
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 90px;
+                width: 350px;
+                left: 0;
+            }
+            .options-personal-info{
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 350px;
+                width: 350px;
+                left: 0;
+    
+            }
+            .profile-summary{
+                position: relative;
+                right:0;
+                height: 300px;
+                width: 350px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+                background-color: #fafaf6;
+            }
+            .account-options-img{
+                left:0;
+                height: 90px;
+                width: 90px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+            background-color: #78a0c6;
+            background-image: url('../images/others-marker.png');
+            background-size: 180% 180%;
+            background-repeat: no-repeat;
+            background-position: -30px -25px; /*x, y*/
+            position: absolute;
+    
+     
+            }
+    .options-personal-info-img{
+        left:0;
+        height: 350px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: -110px 0px; /*x, y*/
+    position: absolute;
+    }
+    .subsection-title{
+        position: absolute;
+         left: 50px;
+         bottom: 35px;
+    }
+    .subsection-title-personal-info{
+        position: absolute;
+        left: 50px;
+        bottom: 290px;  
+    }
+    .subsection-title-summary{
+        position: absolute;
+        left: 25px;
+        bottom: 230px; 
+    }
+    .email{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+         
+    
+    }
+    .first-name{
+        position: absolute;
+        top: 130px;
+        left: 50px;
+    }
+    .last-name{
+        position: absolute;
+        top: 220px;
+        left: 50px;
+    }
+    .account-save{
+        position: absolute;
+        left: 80px;
+        top: 240px;
+        width: 180px;
+    }
 
 }
 
-.change-pass{ /**/
-    margin-left: 0;
-    border: solid;
-    border-color: black;
-    background-color: transparent;
-    height: 30px;
-    width: 80px;
-    display: inline-block;  
+@media only screen and (min-width: 800px) and (max-width:1000px){ /**/
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 780px;
+        }
+  
+        .account-center{
+            position: relative;
+            top: 60px;
+            width: 750px;
+            height: fit-content;
+
+        }
+            .account-options{ 
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 110px;
+                width: 350px;
+                left: 0;
+            }
+            .options-personal-info{
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 370px;
+                width: 350px;
+                left: 0;
+    
+            }
+            .profile-summary{
+                bottom: 1060px;
+                position: relative;
+                left:400px;
+                height: 320px;
+                width: 350px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+                background-color: #fafaf6;
+            }
+            .account-options-img{
+                left:0;
+                height: 109px;
+                width: 90px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+            background-color: #78a0c6;
+            background-image: url('../images/others-marker.png');
+            background-size: 180% 180%;
+            background-repeat: no-repeat;
+            background-position: -30px -30px; /*x, y*/
+            position: absolute;
+    
+     
+            }
+    .options-personal-info-img{
+        left:0;
+        height: 370px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: -110px 0px; /*x, y*/
+    position: absolute;
+    }
+    .subsection-title{
+        position: absolute;
+         left: 50px;
+         bottom: 50px;
+         font-size: 18px;
+    }
+    .subsection-title-personal-info{
+        position: absolute;
+        left: 50px;
+        bottom: 305px;  
+        font-size: 18px;
+
+    }
+    .subsection-title-summary{
+        position: absolute;
+        left: 25px;
+        bottom: 250px; 
+        font-size: 18px;
+
+    }
+    .email{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 18px;
+
+         
+    
+    }
+    .first-name{
+        position: absolute;
+        top: 140px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .last-name{
+        position: absolute;
+        top: 240px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .account-save{
+        position: absolute;
+        left: 80px;
+        top: 260px;
+        width: 180px;
+        height: 35px;
+        font-size: 18px;
+
+    }
+
+
+
+
 }
-.change-pass:active{
-    font-size: 0; 
-    border: none;
+@media only screen and (min-width: 1000px) and (max-width:1300px){ /**/
+  
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 970px;
+        }
+
+
+
+
+        .account-center{
+            position: relative;
+            top: 60px;
+            width: 850px;
+            height: fit-content;
+
+
+        }
+            .account-options{ 
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 110px;
+                width: 350px;
+                left: 0;
+            }
+            .options-personal-info{
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 370px;
+                width: 350px;
+                left: 0;
+    
+            }
+            .profile-summary{
+                bottom: 1060px;
+                position: relative;
+                left:495px;
+                height: 320px;
+                width: 350px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+                background-color: #fafaf6;
+            }
+            .account-options-img{
+                left:0;
+                height: 109px;
+                width: 90px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+            background-color: #78a0c6;
+            background-image: url('../images/others-marker.png');
+            background-size: 180% 180%;
+            background-repeat: no-repeat;
+            background-position: -30px -30px; /*x, y*/
+            position: absolute;
+    
+     
+            }
+    .options-personal-info-img{
+        left:0;
+        height: 370px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: -110px 0px; /*x, y*/
+    position: absolute;
+    }
+    .subsection-title{
+        position: absolute;
+         left: 50px;
+         bottom: 50px;
+         font-size: 18px;
+    }
+    .subsection-title-personal-info{
+        position: absolute;
+        left: 50px;
+        bottom: 305px;  
+        font-size: 18px;
+
+    }
+    .subsection-title-summary{
+        position: absolute;
+        left: 25px;
+        bottom: 250px; 
+        font-size: 18px;
+
+    }
+    .email{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 18px;
+
+         
+    
+    }
+    .first-name{
+        position: absolute;
+        top: 140px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .last-name{
+        position: absolute;
+        top: 240px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .account-save{
+        position: absolute;
+        left: 80px;
+        top: 260px;
+        width: 180px;
+        height: 35px;
+        font-size: 18px;
+
+    }
+
+ 
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width:1502px){ /**/
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 1200px;
+        }
+  
+
+
+        .account-center{
+            position: relative;
+            top: 60px;
+            width: 1000px;
+            height: fit-content;
+
+
+        }
+            .account-options{ 
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 110px;
+                width: 350px;
+                left: 0;
+            }
+            .options-personal-info{
+                background-color: #fafaf6;
+                border-radius: 20px;
+                border: 1px solid #e6e6e3;
+                position: relative;
+                height: 370px;
+                width: 350px;
+                left: 0;
+    
+            }
+            .profile-summary{
+                bottom: 1060px;
+                position: relative;
+                left:642px;
+                height: 320px;
+                width: 350px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+                background-color: #fafaf6;
+            }
+            .account-options-img{
+                left:0;
+                height: 109px;
+                width: 90px;
+                border: 1px solid #e6e6e3;
+                border-radius: 20px;
+            background-color: #78a0c6;
+            background-image: url('../images/others-marker.png');
+            background-size: 180% 180%;
+            background-repeat: no-repeat;
+            background-position: -30px -30px; /*x, y*/
+            position: absolute;
+    
+     
+            }
+    .options-personal-info-img{
+        left:0;
+        height: 370px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: -110px 0px; /*x, y*/
+    position: absolute;
+    }
+    .subsection-title{
+        position: absolute;
+         left: 50px;
+         bottom: 50px;
+         font-size: 18px;
+    }
+    .subsection-title-personal-info{
+        position: absolute;
+        left: 50px;
+        bottom: 305px;  
+        font-size: 18px;
+
+    }
+    .subsection-title-summary{
+        position: absolute;
+        left: 25px;
+        bottom: 250px; 
+        font-size: 18px;
+
+    }
+    .email{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        font-size: 18px;
+
+         
+    
+    }
+    .first-name{
+        position: absolute;
+        top: 140px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .last-name{
+        position: absolute;
+        top: 240px;
+        left: 50px;
+        font-size: 18px;
+
+    }
+    .account-save{
+        position: absolute;
+        left: 80px;
+        top: 260px;
+        width: 180px;
+        height: 35px;
+        font-size: 18px;
+
+    }
+
+
 }
