@@ -33,7 +33,8 @@ body{
 
 .continue-bttn:active{
     background: white;
-    
+    color: white;
+
 
 }
 
@@ -66,9 +67,16 @@ body{
     width: fit-content;
     display: inline-block;
 }
-.dropdown-bttn{
+.dropdown-bttn{ /***/
     position: center;
     white-space: nowrap;
+
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 80px;
+     height: 40px;
 
 }
 

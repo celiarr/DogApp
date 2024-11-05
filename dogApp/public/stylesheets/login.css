@@ -10,6 +10,7 @@ p{
     position: absolute;
     border-radius:25px;  
     border: 1px solid white;
+    font-family: 'Open Sans';
    
 
 } 
@@ -77,6 +78,8 @@ p{
             margin-top: 20px;
             border-radius:25px;  
             border: 0.5px solid black;
+            font-family: 'Open Sans';
+
             
            
     
@@ -245,7 +248,8 @@ margin-left: 160px;
             margin-top: 80px;
             border-radius:25px;  
             border: 0.5px solid black;
-            
+            font-family: 'Open Sans';
+
            
     
     
@@ -330,7 +334,8 @@ margin-left: 270px;
             margin-top: 80px;
             border-radius:25px;  
             border: 0.5px solid black;
-            
+            font-family: 'Open Sans';
+
            
     
     
@@ -417,7 +422,8 @@ margin-left: 270px;
             margin-top: 80px;
             border-radius:25px;  
             border: 0.5px solid black;
-            
+            font-family: 'Open Sans';
+
            
     
     
@@ -507,7 +513,10 @@ margin-left: 420px;
             position: absolute;
             margin-top: 80px;
             border-radius:25px;  
-            border: 0.5px solid black;
+            border: 0.5px solid black;   
+             font-family: 'Open Sans';
+
+
             
            
     
@@ -601,7 +610,8 @@ margin-left: 500px;
             margin-top: 80px;
             border-radius:25px;  
             border: 0.5px solid black;
-            
+            font-family: 'Open Sans';
+
            
     
     
