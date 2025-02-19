@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', homeRouter);
+app.use('/', signUpOneRouter);
 app.use('/users', usersRouter);
 app.use('/signUp-1', signUpOneRouter);
 app.use('/signUp-2', signUpTwoRouter);

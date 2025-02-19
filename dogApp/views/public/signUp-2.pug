@@ -1,6 +1,6 @@
 doctype html
 head
-  title Sign Up
+  title Sign Up-2
   meta(charset='utf-8')
   meta(name='viewport' content='width=device-width, initial-scale=1')
   link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous')
@@ -11,6 +11,7 @@ head
     const dropDwnOne = document.getElementById("dropdown-1");
     const dropDwnTwo = document.getElementById("dropdown-2");
     const dropDwnThree = document.getElementById("dropdown-3");
+    const dropDwnFour = document.getElementById("dropdown-4");
     if(id === "dropdown-bttn-1"){
     if(dropDwnOne.style.display === "block"){
     dropDwnOne.style.display= "none";
@@ -31,50 +32,102 @@ head
     dropDwnThree.style.display = "block";
     }
     }
+    else if (id === "dropdown-bttn-4"){
+    if(dropDwnFour.style.display === "block"){
+    dropDwnFour.style.display= "none";
+    }else{
+    dropDwnFour.style.display = "block";
+    }
+    }
     }
 .grid-container
   // -- navbar -
   .row-one
-    | 1
+    h2.app-name Woolf Alarm
+    img.menu-img.logo-img(src='/images/dog.png')
   // -- middle -
   .row-two
-    | 2
-    .dog-breeds
-      b Dog Breeds: 
+    .content-1
+      .question-1 How big would you describe your dog?
+      .options-4
+        button#dropdown-bttn-4.dropdown-bttn(onclick='openCloseDropDown(this.id)')
+          | Breed Sizes
+          #dropdown-4.dropdown-4
+            .dropdown-item(style='text-align:center;') Small
+            .dropdown-item(style='text-align:center;') Medium
+            .dropdown-item(style='text-align:center;') Large
+            .dropdown-item(style='text-align:center;') X-Large
+      .question-2 Pick a breed that best describes your dog?
     .options-1
       button#dropdown-bttn-1.dropdown-bttn(onclick='openCloseDropDown(this.id)') Small Breeds
       #dropdown-1.dropdown-1
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test1
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Chihuahua
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test2
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Beagle
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test4
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Corgis
+        .dropdown-item
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Mini Dachshunds
+        .dropdown-item
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | French Bulldog
+        .dropdown-item
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Australian Terrier
+        .dropdown-item
+          img.dropdown-img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | pug
     .options-2
       button#dropdown-bttn-2.dropdown-bttn(onclick='openCloseDropDown(this.id)') Medium Breeds
       #dropdown-2.dropdown-2
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test1
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Bulldog
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test2
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Dalmatian
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test4
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Siberian husky
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Boxer
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Poodle
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | English Foxhound
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Collie
     .options-3
       button#dropdown-bttn-3.dropdown-bttn(onclick='openCloseDropDown(this.id)') Large Breeds
       #dropdown-3.dropdown-3
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test1
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Blood Hound
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test2
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Bullmastiff
         .dropdown-item
-          img(src='../public/images/one.png' style='width:40px; height:40px; display: inline-block;')
-          p(style='display: inline-block;') test4
-    button.join-bttn  join now
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Golden Retriever
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Rottweiler
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Cane Corso
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | German Shepard
+        .dropdown-item
+          img(src='/images/one.png' style='width:40px; height:40px; display: inline-block;')
+          | Labrador
+    button.continue-2-bttn.continue-bttn  Continue 

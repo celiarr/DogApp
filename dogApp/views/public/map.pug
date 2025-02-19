@@ -11,7 +11,11 @@ head
   // -- navbar -
   .row-one
     h2.app-name Woolf Alarm
-    img.menu-img.logo-img(src='/images/dog.png')
+    a.navbar-acc Account
+    a.navbar-bttns.navbar-map Map
+    a.navbar-bttns.navbar-terms Terms &amp; Conditions
+    a(href='/home')
+      img.menu-img.logo-img(src='/images/dog.png')
   // -- middle -
   .row-two
     #mapp.map
@@ -35,5 +39,5 @@ head
     // -- map section -
     #map
     button(onclick='messageOptions()') test
-script(type='text/javascript' src='/javascripts/map.js')
-script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCtI37-6bAv9jWw-iYC895OoUogO5PdQ&map_ids=d86da7b08d23b8f2&callback=initMap')
+script(type='text/javascript' src='../public/javascripts/map.js')
+script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCtI37-6bAv9jWw-iYC895OoUogO5PdQ&map_ids=53f52a9c8d6ca828&callback=initMap')

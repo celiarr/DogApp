@@ -10,21 +10,45 @@ head
 .grid-container
   // -- navbar -
   .row-one
-    | 1
-    .drop-down-menu
-      img.menu-img(src='../public/images/dropDownImg.png')
-      .menu-content
-        | test
-        br
-        | test
-        br
+    h2.app-name Woolf Alarm
+    a.navbar-acc Account
+    a.navbar-bttns.navbar-map Map
+    a.navbar-bttns.navbar-terms Terms &amp; Conditions
+    //
+      <a href="/home">
+      <img class="menu-img logo-img" src="/images/dog.png">
+      </a>
   // -- middle -
   .row-two
-    | 2
     .account-center
-      button.account-options add a dog
-      button.account-options delete a dog
-      button.account-options turn off location
-      button.account-options disable account
-      button.account-options edit personal info
-      button.save-continue save and continue
+      .account-options
+        .account-options-img
+        p.subsection-title
+          b add a dog
+      .account-options
+        .account-options-img
+        p.subsection-title
+          b delete a dog
+      .account-options
+        .account-options-img
+        p.subsection-title
+          b turn off location
+      .account-options
+        .account-options-img
+        p.subsection-title
+          b disable account
+      .options-personal-info
+        .options-personal-info-img
+        p.subsection-title-personal-info
+          b edit personal info
+        br
+        p.first-name First Name
+        br
+        p.last-name Last Name
+        br
+        p.email E-mail
+      .profile-summary
+        p.subsection-title-summary
+          b Profile Summary
+        button.account-save save changes
+  script(type='text/javascript' src='/javascripts/account.js')

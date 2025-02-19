@@ -1,0 +1,32 @@
+doctype html
+head
+  title Login
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/template.css')
+  link(rel='stylesheet' type='text/css' href='/stylesheets/login.css')
+.grid-container
+  // -- navbar -
+  .row-one
+    h2.app-name Woolf Alarm
+    img.menu-img.logo-img(src='/images/dog.png')
+  // -- middle -
+  .row-two
+    .login-form
+      form(action='' method='POST')
+        .input-email
+          p(style='margin-right: auto;') Email
+          br
+          input#email.login-input(style='margin-right: auto;')
+          br
+          br
+        .input-password
+          p(style='margin-right: auto;') Password
+          input#password.login-input(style='margin-right: auto;')
+          br
+          br
+        button#submit.continue-bttn.login-bttns.signup-bttn(type='button') Sign up
+        button#submit.continue-bttn.login-bttns.login-bttn(type='button') Login
+        a(onclick="event.preventDefault();this.closest('form').submit();")
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js')
