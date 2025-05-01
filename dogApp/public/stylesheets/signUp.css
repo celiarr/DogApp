@@ -79,45 +79,50 @@ body{
 }
 
 .dropdown-1{
-    height: fit-content;
+    height: 100px;
     width: 100px;
     z-index: 1;
     position: absolute;
     display: none;
+    overflow:hidden;
+     overflow-y:scroll;
     
 
 }
 .dropdown-2{
-    height: fit-content;
+    height: 100px;
     width: 100px;
     z-index: 1;
     position: absolute;
     display: none;
-   
+    overflow:hidden;
+    overflow-y:scroll;
     
 
 
 }
 .dropdown-3{
-    height: fit-content;
+    height: 100px;
     width: 100px;
     z-index: 1;
     position: absolute;
     display: none;
+     overflow:hidden;
+    overflow-y:scroll;
 
 }
 .dropdown-4{
     
-    height: fit-content;
+    height: 200px;
     width: 100px;
     z-index: 1;
     position: absolute;
     display: none;
+    overflow:hidden;
+    overflow-y:scroll;
 }
 .dropdown-item{
     position: relative;
-    height: fit-content;
-    width: fit-content;
     visibility: visible;
     border: solid;
     border-width: 0.5px;
@@ -150,10 +155,7 @@ body{
 .content-3{
     height: fit-content;
     width: fit-content;
-    margin-left: 400px;  
-
-    border: solid;
-    border-color: black;
+margin: auto;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 50px 50px 50px 50px;
@@ -161,9 +163,8 @@ body{
 }
 .content-3-rows{
 
- 
-    border: solid;
-    border-color: black;
+    position: relative;
+    
    
   
 }
@@ -196,32 +197,20 @@ white-space: nowrap;
     border: none;
 color: white;
 }
-.location-yes{
-position: absolute;
-margin-left: 200px;
-
-}
-.location-no{
-    position: absolute;
-    margin-left: 200px;
-   
-}
-.submit-profile{
-    position: absolute;
-    margin-left: 160px;  
-}
 
 .signUp-3-bttns{
-    background: linear-gradient(to right, rgb(182, 230, 244), black);
-     color: black;
-     border-radius: 25px;
-border: none;    
+    background: none;
+    color: black;
+    border-radius: 25px;
+    border: 0.5px solid black;
+   background-color: transparent;
+   height: fit-content;
+   width: fit-content;
 }
 .signUp-3-bttns:active{
-    background:  rgb(77, 75, 75);;
-    color:  rgb(77, 75, 75);
-    border: solid;
-    border-color: rgb(77, 75, 75);
+    border: none;
+    background-color: white;
+    color: white;
 }
 
 p{
@@ -238,6 +227,188 @@ visibility: hidden;
         background-repeat: no-repeat;
         background-position: 0px 70px;
          background-size: 100% 340px;
+        }
+
+        p{
+            font-size: calc(15px + 0.390625vw);
+          position: absolute;
+
+
+        }
+        .continue-bttn-1{
+            margin-left: 35vw;
+            position: absolute;
+             margin-top: 160px;
+             font-size: calc(15px + 0.390625vw);
+
+
+        }
+      
+.input-container-1{
+    margin: auto;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 40px;
+    height: fit-content;
+width: fit-content;
+
+
+
+}
+.input-container-2{
+    margin: auto;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 100px;
+    height: fit-content;
+    width: fit-content;
+    
+
+
+}
+.signUp-input{ 
+    background: none;
+    width: 150px;
+    height: 30px;
+    border-radius:25px;  
+    border: 0.5px solid black;
+    margin-top: 10px;
+    margin-right: auto;
+   
+
+
+
+} 
+.content-1{
+    height: 140px;
+    width: fit-content;
+    position: absolute;
+    left: 40px;
+
+}
+.content-3{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    margin-left: auto;
+  margin-right: auto;
+}
+.options-1{
+    left:130px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+     top: 300px;
+ }
+ .options-2{
+     left:130px;
+     top: 470px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .options-3{
+     left:130px;
+     top: 640px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .question-1{
+    position: absolute;
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+    }
+ .question-2{
+    position: absolute;
+    margin-top: 180px;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
+
+}
+.dropdown-bttn{ /***/
+    position: center;
+    white-space: nowrap;
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 160px;
+     height: 30px;
+     font-size: 15px;
+
+}
+.continue-2-bttn{
+    position: absolute;
+    height: 40px;
+    width: fit-content;
+    font-size: 16px;
+    top:800px;
+    left:200px;
+ 
+    
+}
+.dropdown-item{
+    font-size: 15px;
+    width:160px;
+     height:40px; 
+    
+}
+.dropdown-img{
+    width:40px;
+    height:40px;
+}
+.dropdown-1{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width:650px){
+  
+    body{  
+        background-image: url('../images/signup-background.jpg');      
+        background-color: #44a89c;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+         background-size: 100% 470px;
         }
 
         p{
@@ -326,13 +497,29 @@ width: fit-content;
     position: absolute;
     margin-top: 10px;
     white-space: nowrap;
-    font-size: 19px;
+    font-size: 15px;
     }
  .question-2{
     position: absolute;
     margin-top: 180px;
     white-space: nowrap;
-    font-size: 19px;
+    font-size: 15px;
+
+}
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
 
 }
 .dropdown-bttn{ /***/
@@ -342,9 +529,9 @@ width: fit-content;
      color: black;
      border-radius: 15px;
      border: 0.5px solid black;
-     width: fit-content;
+     width: 160px;
      height: 30px;
-     font-size: 16px;
+     font-size: 15px;
 
 }
 .continue-2-bttn{
@@ -353,50 +540,66 @@ width: fit-content;
     width: fit-content;
     font-size: 16px;
     top:800px;
-    left:130px;
+    left:200px;
  
     
 }
 .dropdown-item{
-    height: fit-content;
-    width: 100px;
-    font-size: 16px;
+    font-size: 15px;
+    width:160px;
+     height:40px; 
     
 }
+.dropdown-img{
+    width:40px;
+    height:40px;
 }
+.dropdown-1{
+    height: 120px;
+    width:160px;
 
-@media only screen and (min-width: 500px) and (max-width:650px){
-  
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
+}
+@media only screen and (min-width: 650px) and (max-width:800px){
     body{  
         background-image: url('../images/signup-background.jpg');      
         background-color: #44a89c;
         background-repeat: no-repeat;
         background-position: 0px 70px;
-         background-size: 100% 470px;
+         background-size: 100% 750px;
         }
 
+       
         p{
-            font-size: calc(17px + 0.390625vw);
+            font-size: calc(15px + 0.390625vw);
           position: absolute;
 
 
         }
         .continue-bttn-1{
-            margin-left: 30vw;
+            margin-left: 35vw;
             position: absolute;
-             margin-top: 220px;
-             font-size: calc(17px + 0.390625vw);;
+             margin-top: 160px;
+             font-size: calc(15px + 0.390625vw);
 
 
         }
-        .continue-bttn{
-            background: none;
-             color: black;
-             border-radius: 25px;
-             border: 0.5px solid black;
-             width: 90px;
-             height: 40px;
-        }
+      
 .input-container-1{
     margin: auto;
     position: absolute;
@@ -425,214 +628,126 @@ width: fit-content;
     height: 30px;
     border-radius:25px;  
     border: 0.5px solid black;
-    margin-top: 65px;
+    margin-top: 10px;
     margin-right: auto;
    
 
 
 
 } 
-.question-1{
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
-    white-space: nowrap;
-    font-size: 19px;
-    } 
-    .options-1{
-        left:130px;
-         position: absolute;
-        height: fit-content;
-         width: fit-content;
-         display: inline-block;
-         margin-top: 250px;
-     }  
-     .question-2{
-        position: absolute;
-        margin-top: 220px;
-        margin-left: 40px;
-        white-space: nowrap;
-        font-size: 19px;
-    
-    } 
-    .options-2{
-        left:130px;
-        margin-top: 440px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .options-3{
-        left:130px;
-        top: 700px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .continue-2-bttn{
-        position: absolute;
-        height: 40px;
-        width: 100px;
-        font-size: 16px;
-        top:900px;
-        left:130px;
-     
-        
-    }
-    .dropdown-item{
-        height: fit-content;
-        width: 100px;
-        font-size: 16px;
-        
-    }
-    .dropdown-bttn{ /***/
-        position: center;
-        white-space: nowrap;
-        background:  #44a89c;
-         color: black;
-         border-radius: 15px;
-         border: 0.5px solid black;
-         width: 100px;
-         height: 30px;
-         font-size: 16px;
-    
-    }
-}
-@media only screen and (min-width: 650px) and (max-width:800px){
-    body{  
-        background-image: url('../images/signup-background.jpg');      
-        background-color: #44a89c;
-        background-repeat: no-repeat;
-        background-position: 0px 70px;
-         background-size: 100% 750px;
-        }
-
-        p{
-            font-size: calc(16px + 0.390625vw);
-          position: absolute;
-
-
-        }
-        .continue-bttn-1{
-            margin-left: 30vw;
-            position: absolute;
-             margin-top: 220px;
-             font-size: calc(16px + 0.390625vw);;
-
-
-        }
-        .continue-bttn{
-            background: none;
-             color: black;
-             border-radius: 25px;
-             border: 0.5px solid black;
-             width: 100px;
-             height: 40px;
-        }
-.input-container-1{
-    margin: auto;
-    position: absolute;
-    margin-left: 25vw;
-    margin-top: 40px;
-    height: fit-content;
-width: fit-content;
-
-
-
-}
-.input-container-2{
-    margin: auto;
-    position: absolute;
-    margin-left: 25vw;
-    margin-top: 100px;
-    height: fit-content;
+.content-1{
+    height: 140px;
     width: fit-content;
-    
-
+    position: absolute;
+    left: 40px;
 
 }
-.signUp-input{ 
-    background: none;
-    width: 170px;
-    height: 30px;
-    border-radius:25px;  
-    border: 0.5px solid black;
-    margin-top: 65px;
-    margin-right: auto;
-   
 
-
-
-}  
-.question-1{
+.options-1{
+    left:130px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+     top: 300px;
+ }
+ .options-2{
+     left:130px;
+     top: 470px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .options-3{
+     left:130px;
+     top: 640px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .question-1{
     position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
+    margin-top: 10px;
     white-space: nowrap;
-    font-size: 19px;
-    } 
-    .options-1{
-        left:130px;
-         position: absolute;
-        height: fit-content;
-         width: fit-content;
-         display: inline-block;
-         margin-top: 250px;
-     }  
-     .question-2{
-        position: absolute;
-        margin-top: 220px;
-        margin-left: 40px;
-        white-space: nowrap;
-        font-size: 19px;
+    font-size: 15px;
+    }
+ .question-2{
+    position: absolute;
+    margin-top: 180px;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
+
+}
+.dropdown-bttn{ /***/
+    position: center;
+    white-space: nowrap;
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 160px;
+     height: 30px;
+     font-size: 15px;
+
+}
+.continue-2-bttn{
+    position: absolute;
+    height: 40px;
+    width: fit-content;
+    font-size: 16px;
+    top:800px;
+    left:200px;
+ 
     
-    } 
-    .options-2{
-        left:130px;
-        margin-top: 440px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .options-3{
-        left:130px;
-        top: 700px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .continue-2-bttn{
-        position: absolute;
-        height: 40px;
-        width: 100px;
-        font-size: 16px;
-        top:900px;
-        left:130px;
-     
-        
-    }
-    .dropdown-item{
-        height: fit-content;
-        width: 100px;
-        font-size: 16px;
-        
-    }
-    .dropdown-bttn{ /***/
-        position: center;
-        white-space: nowrap;
-        background:  #44a89c;
-         color: black;
-         border-radius: 15px;
-         border: 0.5px solid black;
-         width: 100px;
-         height: 30px;
-         font-size: 16px;
+}
+.dropdown-item{
+    font-size: 15px;
+    width:160px;
+     height:40px; 
     
-    }
+}
+.dropdown-img{
+    width:40px;
+    height:40px;
+}
+.dropdown-1{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
 
 
 }
@@ -647,28 +762,22 @@ width: fit-content;
          background-size: 100% 780px;
         }
 
+        
         p{
-            font-size: calc(17px + 0.390625vw);
+            font-size: calc(15px + 0.390625vw);
           position: absolute;
 
 
         }
         .continue-bttn-1{
-            margin-left: 30vw;
+            margin-left: 35vw;
             position: absolute;
-             margin-top: 220px;
-             font-size: calc(17px + 0.390625vw);;
+             margin-top: 160px;
+             font-size: calc(15px + 0.390625vw);
 
 
         }
-        .continue-bttn{
-            background: none;
-             color: black;
-             border-radius: 25px;
-             border: 0.5px solid black;
-             width: 100px;
-             height: 40px;
-        }
+      
 .input-container-1{
     margin: auto;
     position: absolute;
@@ -693,85 +802,130 @@ width: fit-content;
 }
 .signUp-input{ 
     background: none;
-    width: 180px;
+    width: 150px;
     height: 30px;
     border-radius:25px;  
     border: 0.5px solid black;
-    margin-top: 65px;
+    margin-top: 10px;
     margin-right: auto;
    
 
 
 
-}  
-.question-1{
+} 
+.content-1{
+    height: 140px;
+    width: fit-content;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
-    white-space: nowrap;
-    font-size: 19px;
-    } 
-    .options-1{
-        left:130px;
-         position: absolute;
-        height: fit-content;
-         width: fit-content;
-         display: inline-block;
-         margin-top: 250px;
-     }  
-     .question-2{
-        position: absolute;
-        margin-top: 220px;
-        margin-left: 40px;
-        white-space: nowrap;
-        font-size: 19px;
-    
-    } 
-    .options-2{
-        left:130px;
-        margin-top: 440px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .options-3{
-        left:130px;
-        top: 700px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .continue-2-bttn{
-        position: absolute;
-        height: 40px;
-        width: 100px;
-        font-size: 16px;
-        top:900px;
-        left:130px;
-     
-        
-    }
-    .dropdown-item{
-        height: fit-content;
-        width: 100px;
-        font-size: 16px;
-        
-    }
-    .dropdown-bttn{ /***/
-        position: center;
-        white-space: nowrap;
-        background:  #44a89c;
-         color: black;
-         border-radius: 15px;
-         border: 0.5px solid black;
-         width: 100px;
-         height: 30px;
-         font-size: 16px;
-    
-    }
+    left: 40px;
 
+}
+
+.options-1{
+    left:130px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+     top: 300px;
+ }
+ .options-2{
+     left:130px;
+     top: 470px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .options-3{
+     left:130px;
+     top: 640px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .question-1{
+    position: absolute;
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+    }
+ .question-2{
+    position: absolute;
+    margin-top: 180px;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
+
+}
+.dropdown-bttn{ /***/
+    position: center;
+    white-space: nowrap;
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 160px;
+     height: 30px;
+     font-size: 15px;
+
+}
+.continue-2-bttn{
+    position: absolute;
+    height: 40px;
+    width: fit-content;
+    font-size: 16px;
+    top:800px;
+    left:200px;
+ 
+    
+}
+.dropdown-item{
+    font-size: 15px;
+    width:160px;
+     height:40px; 
+    
+}
+.dropdown-img{
+    width:40px;
+    height:40px;
+}
+.dropdown-1{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
 
 
 }
@@ -786,27 +940,20 @@ width: fit-content;
         }
 
         p{
-            font-size: calc(17px + 0.390625vw);
+            font-size: calc(15px + 0.390625vw);
           position: absolute;
 
 
         }
         .continue-bttn-1{
-            margin-left: 30vw;
+            margin-left: 35vw;
             position: absolute;
-             margin-top: 220px;
-             font-size: calc(17px + 0.390625vw);;
+             margin-top: 160px;
+             font-size: calc(15px + 0.390625vw);
 
 
         }
-        .continue-bttn{
-            background: none;
-             color: black;
-             border-radius: 25px;
-             border: 0.5px solid black;
-             width: 100px;
-             height: 40px;
-        }
+      
 .input-container-1{
     margin: auto;
     position: absolute;
@@ -831,84 +978,130 @@ width: fit-content;
 }
 .signUp-input{ 
     background: none;
-    width: 180px;
+    width: 150px;
     height: 30px;
     border-radius:25px;  
     border: 0.5px solid black;
-    margin-top: 65px;
+    margin-top: 10px;
     margin-right: auto;
    
 
 
 
-}  
-
-.question-1{
+} 
+.content-1{
+    height: 140px;
+    width: fit-content;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
+    left: 40px;
+
+}
+
+.options-1{
+    left:130px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+     top: 300px;
+ }
+ .options-2{
+     left:130px;
+     top: 470px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .options-3{
+     left:130px;
+     top: 640px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .question-1{
+    position: absolute;
+    margin-top: 10px;
     white-space: nowrap;
-    font-size: 13px;
-    } 
-    .options-1{
-        left:130px;
-         position: absolute;
-        height: fit-content;
-         width: fit-content;
-         display: inline-block;
-         margin-top: 250px;
-     }  
-     .question-2{
-        position: absolute;
-        margin-top: 220px;
-        margin-left: 40px;
-        white-space: nowrap;
-        font-size: 13px;
+    font-size: 15px;
+    }
+ .question-2{
+    position: absolute;
+    margin-top: 180px;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
+
+}
+.dropdown-bttn{ /***/
+    position: center;
+    white-space: nowrap;
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 160px;
+     height: 30px;
+     font-size: 15px;
+
+}
+.continue-2-bttn{
+    position: absolute;
+    height: 40px;
+    width: fit-content;
+    font-size: 16px;
+    top:800px;
+    left:200px;
+ 
     
-    } 
-    .options-2{
-        left:130px;
-        margin-top: 440px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .options-3{
-        left:130px;
-        top: 700px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .continue-2-bttn{
-        position: absolute;
-        height: 40px;
-        width: 100px;
-        font-size: 13px;
-        top:900px;
-        left:130px;
-     
-        
-    }
-    .dropdown-item{
-        height: fit-content;
-        width: 100px;
-        
-    }
-    .dropdown-bttn{ /***/
-        position: center;
-        white-space: nowrap;
-        background:  #44a89c;
-         color: black;
-         border-radius: 15px;
-         border: 0.5px solid black;
-         width: 100px;
-         height: 30px;
-         font-size: 12px;
+}
+.dropdown-item{
+    font-size: 15px;
+    width:160px;
+     height:40px; 
     
-    } 
+}
+.dropdown-img{
+    width:40px;
+    height:40px;
+}
+.dropdown-1{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
 
 }
 
@@ -923,30 +1116,21 @@ width: fit-content;
         background-position: 0px 70px;
          background-size: 100% 1200px;
         }
-
-
         p{
-            font-size: calc(17px + 0.390625vw);
+            font-size: calc(15px + 0.390625vw);
           position: absolute;
-        color: black;
+
 
         }
         .continue-bttn-1{
-            margin-left: 30vw;
+            margin-left: 35vw;
             position: absolute;
-             margin-top: 250px;
-             font-size: calc(17px + 0.390625vw);;
+             margin-top: 160px;
+             font-size: calc(15px + 0.390625vw);
 
 
         }
-        .continue-bttn{
-            background: none;
-             color: black;
-             border-radius: 25px;
-             border: 0.5px solid black;
-             width: 120px;
-             height: 40px;
-        }
+      
 .input-container-1{
     margin: auto;
     position: absolute;
@@ -962,7 +1146,7 @@ width: fit-content;
     margin: auto;
     position: absolute;
     margin-left: 25vw;
-    margin-top: 120px;
+    margin-top: 100px;
     height: fit-content;
     width: fit-content;
     
@@ -971,81 +1155,129 @@ width: fit-content;
 }
 .signUp-input{ 
     background: none;
-    width: 250px;
-    height: 45px;
+    width: 150px;
+    height: 30px;
     border-radius:25px;  
     border: 0.5px solid black;
-    margin-top: 65px;
+    margin-top: 10px;
     margin-right: auto;
    
 
 
 
-}  
-.question-1{
+} 
+.content-1{
+    height: 140px;
+    width: fit-content;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
-    white-space: nowrap;
-    font-size: 13px;
-    } 
-    .options-1{
-        left:130px;
-         position: absolute;
-        height: fit-content;
-         width: fit-content;
-         display: inline-block;
-         margin-top: 250px;
-     }  
-     .question-2{
-        position: absolute;
-        margin-top: 220px;
-        margin-left: 40px;
-        white-space: nowrap;
-        font-size: 13px;
-    
-    } 
-    .options-2{
-        left:130px;
-        margin-top: 440px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .options-3{
-        left:130px;
-        top: 700px;
-        position: absolute;
-       height: fit-content;
-        width: fit-content;
-        display: inline-block;
-    }
-    .continue-2-bttn{
-        position: absolute;
-        height: 40px;
-        width: 100px;
-        font-size: 13px;
-        top:900px;
-        left:130px;
-     
-        
-    }
-    .dropdown-item{
-        height: fit-content;
-        width: 100px;
-        
-    }
-    .dropdown-bttn{ /***/
-        position: center;
-        white-space: nowrap;
-        background:  #44a89c;
-         color: black;
-         border-radius: 15px;
-         border: 0.5px solid black;
-         width: 100px;
-         height: 30px;
-         font-size: 12px;
-    
-    }
+    left: 40px;
+
 }
+
+.options-1{
+    left:130px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+     top: 300px;
+ }
+ .options-2{
+     left:130px;
+     top: 470px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .options-3{
+     left:130px;
+     top: 640px;
+     position: absolute;
+    height: fit-content;
+     width: fit-content;
+     display: inline-block;
+ }
+ .question-1{
+    position: absolute;
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 15px;
+    }
+ .question-2{
+    position: absolute;
+    margin-top: 180px;
+    white-space: nowrap;
+    font-size: 15px;
+
+}
+.location-yes{
+    font-size: 15px;
+
+}
+.location-no{
+    font-size: 15px;
+
+}
+.submit-profile{
+    font-size: 15px;
+
+   }
+label{
+    font-size: 15px;
+
+}
+.dropdown-bttn{ /***/
+    position: center;
+    white-space: nowrap;
+    background:  #44a89c;
+     color: black;
+     border-radius: 15px;
+     border: 0.5px solid black;
+     width: 160px;
+     height: 30px;
+     font-size: 15px;
+
+}
+.continue-2-bttn{
+    position: absolute;
+    height: 40px;
+    width: fit-content;
+    font-size: 16px;
+    top:800px;
+    left:200px;
+ 
+    
+}
+.dropdown-item{
+    font-size: 15px;
+    width:160px;
+     height:40px; 
+    
+}
+.dropdown-img{
+    width:40px;
+    height:40px;
+}
+.dropdown-1{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-2{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-3{
+    height: 120px;
+    width:160px;
+
+}
+.dropdown-4{
+    height: 80px;
+    width:160px;
+
+}
+
+    }
