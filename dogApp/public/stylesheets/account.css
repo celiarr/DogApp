@@ -69,6 +69,9 @@ body{
     border: none;
     color: #0077ff;
  }
+ .personal-info-three{ 
+    white-space: pre-line;
+ }
 @media only screen and (min-width: 300px) and (max-width:500px){
     body{  
         background-image: url('../images/signup-background.jpg');      
@@ -173,6 +176,74 @@ position: absolute;
     bottom: 240px; 
 
 }
+.all-personal-info{
+    background-color: #fafaf6;
+    border-radius: 20px;
+    border: 1px solid #e6e6e3;
+    position: relative;
+    margin:0 auto;
+    height: 380px;
+    width: 300px;
+    top: 30px;
+    
+
+}
+.all-personal-info-img{
+    left:0;
+    height: 380px;
+    width: 90px;
+    border: 1px solid #e6e6e3;
+    border-radius: 20px;
+background-color: #78a0c6;
+background-image: url('../images/others-marker.png');
+background-size: 300% 100%;
+background-repeat: no-repeat;
+background-position: -110px 0px; /*x, y*/
+position: absolute;
+}
+.personal-info-name{
+    top: 10px;
+    left: 40px;
+    font-size: 13px;
+    position:absolute;
+}
+.personal-info-last{    
+    position:absolute;
+    font-size: 13px;
+    top: 50px;
+    left: 40px;
+}
+.personal-info-email{  
+      position:absolute;
+      font-size: 13px;
+      top: 100px;
+      left: 40px;
+    }
+.personal-info-one{   
+     position:absolute;
+     font-size: 13px;
+     top: 150px;
+     left: 40px;
+    }
+.personal-info-two{    
+    position:absolute;
+    font-size: 13px;
+    top: 200px;
+    left: 40px;
+}
+.personal-info-three{ 
+       position:absolute;
+       white-space: pre-line;
+       font-size: 13px;
+       top: 250px;
+       left: 40px;
+    }
+.personal-info-four{   
+     position:absolute;
+     font-size: 13px;
+     top: 300px;
+     left: 40px;
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width:650px){
@@ -279,6 +350,73 @@ position: absolute;
         width: 180px;
         height: 35px;
     }
+    .all-personal-info{
+        background-color: #fafaf6;
+        border-radius: 20px;
+        border: 1px solid #e6e6e3;
+        position: relative;
+        margin:0 auto;
+        height: 500px;
+        width: 400px;
+        top: 30px;
+        
+    
+    }
+    .all-personal-info-img{
+        left:0;
+        height: 500px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 80%; /*x, y*/
+    background-repeat: no-repeat;
+    background-position: -110px 80px; /*x, y*/
+    position: absolute;
+    }
+    .personal-info-name{
+        top: 10px;
+        left: 40px;
+        font-size: 15px;
+        position:absolute;
+    }
+    .personal-info-last{    
+        position:absolute;
+        font-size: 15px;
+        top: 50px;
+        left: 40px;
+    }
+    .personal-info-email{  
+          position:absolute;
+          font-size: 15px;
+          top: 100px;
+          left: 40px;
+        }
+    .personal-info-one{   
+         position:absolute;
+         font-size: 15px;
+         top: 150px;
+         left: 40px;
+        }
+    .personal-info-two{    
+        position:absolute;
+        font-size: 15px;
+        top: 200px;
+        left: 15px;
+    }
+    .personal-info-three{ 
+           position:absolute;
+           font-size: 15px;
+           top: 310px;
+           left: 40px;
+        }
+    .personal-info-four{   
+         position:absolute;
+         font-size: 15px;
+         top: 380px;
+         left: 40px;
+        }
 
 }
 @media only screen and (min-width: 650px) and (max-width:800px){
@@ -389,6 +527,73 @@ position: absolute;
         top: 240px;
         width: 180px;
     }
+    .all-personal-info{
+        background-color: #fafaf6;
+        border-radius: 20px;
+        border: 1px solid #e6e6e3;
+        position: relative;
+        margin:0 auto;
+        height: 500px;
+        width: 530px;
+        top: 30px;
+        
+    
+    }
+    .all-personal-info-img{
+        left:0;
+        height: 500px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 80%; /*x, y*/
+    background-repeat: no-repeat;
+    background-position: -110px 80px; /*x, y*/
+    position: absolute;
+    }
+    .personal-info-name{
+        top: 0px;
+        left: 40px;
+        font-size: 17px;
+        position:absolute;
+    }
+    .personal-info-last{    
+        position:absolute;
+        font-size: 17px;
+        top: 50px;
+        left: 40px;
+    }
+    .personal-info-email{  
+          position:absolute;
+          font-size: 17px;
+          top: 100px;
+          left: 40px;
+        }
+    .personal-info-one{   
+         position:absolute;
+         font-size: 17px;
+         top: 150px;
+         left: 40px;
+        }
+    .personal-info-two{    
+        position:absolute;
+        font-size: 17px;
+        top: 200px;
+        left: 15px;
+    }
+    .personal-info-three{ 
+           position:absolute;
+           font-size: 17px;
+           top: 310px;
+           left: 40px;
+        }
+    .personal-info-four{   
+         position:absolute;
+         font-size: 17px;
+         top: 380px;
+         left: 40px;
+        }
 
 }
 
@@ -517,6 +722,76 @@ position: absolute;
         font-size: 18px;
 
     }
+    .all-personal-info{
+        background-color: #fafaf6;
+        border-radius: 20px;
+        border: 1px solid #e6e6e3;
+        position: relative;
+        margin:0 auto;
+        height: 550px;
+        width: 530px;
+        top: 30px;
+        
+    
+    }
+    .all-personal-info-img{
+        left:0;
+        height: 550px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 80%; /*x, y*/
+    background-repeat: no-repeat;
+    background-position: -110px 80px; /*x, y*/
+    position: absolute;
+    }
+    .personal-info-name{
+        top: 0px;
+        left: 40px;
+        position:absolute;
+        font-size: 20px;
+
+    }
+    .personal-info-last{    
+        position:absolute;
+        font-size: 20px;
+        top: 50px;
+        left: 40px;
+    }
+    .personal-info-email{  
+          position:absolute;
+          font-size: 20px;
+          top: 100px;
+          left: 40px;
+        }
+    .personal-info-one{   
+         position:absolute;
+         font-size: 20px;
+         top: 150px;
+         left: 40px;
+        }
+    .personal-info-two{    
+        position:absolute;
+        font-size: 20px;
+        top: 200px;
+        left: 5px;
+    }
+    .personal-info-three{ 
+           position:absolute;
+           font-size: 20px;
+           top: 330px;
+           left: 40px;
+           word-break: break-all;
+           white-space: pre-line;
+        }
+    .personal-info-four{   
+         position:absolute;
+         font-size: 20px;
+         top: 430px;
+         left: 40px;
+        }
 
 
 
@@ -652,6 +927,76 @@ position: absolute;
         font-size: 18px;
 
     }
+    .all-personal-info{
+        background-color: #fafaf6;
+        border-radius: 20px;
+        border: 1px solid #e6e6e3;
+        position: relative;
+        margin:0 auto;
+        height: 550px;
+        width: 530px;
+        top: 30px;
+        
+    
+    }
+    .all-personal-info-img{
+        left:0;
+        height: 550px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 80%; /*x, y*/
+    background-repeat: no-repeat;
+    background-position: -110px 80px; /*x, y*/
+    position: absolute;
+    }
+    .personal-info-name{
+        top: 0px;
+        left: 40px;
+        position:absolute;
+        font-size: 20px;
+    }
+    .personal-info-last{    
+        position:absolute;
+        font-size: 20px;
+        top: 50px;
+        left: 40px;
+    }
+    .personal-info-email{  
+          position:absolute;
+          font-size: 20px;
+          top: 100px;
+          left: 40px;
+        }
+    .personal-info-one{   
+         position:absolute;
+         font-size: 20px;
+         top: 150px;
+         left: 40px;
+        }
+    .personal-info-two{    
+        position:absolute;
+        font-size: 20px;
+        top: 200px;
+        left: 5px;
+    }
+    .personal-info-three{ 
+           position:absolute;
+           font-size: 20px;
+           top: 330px;
+           left: 40px;
+           word-break: break-all;
+           white-space: pre-line;
+        }
+    .personal-info-four{   
+         position:absolute;
+         font-size: 20px;
+         top: 430px;
+         left: 40px;
+        }
+
 
  
 
@@ -785,6 +1130,75 @@ position: absolute;
         font-size: 18px;
 
     }
+    .all-personal-info{
+        background-color: #fafaf6;
+        border-radius: 20px;
+        border: 1px solid #e6e6e3;
+        position: relative;
+        margin:0 auto;
+        height: 550px;
+        width: 590px;
+        top: 30px;
+        
+    
+    }
+    .all-personal-info-img{
+        left:0;
+        height: 550px;
+        width: 90px;
+        border: 1px solid #e6e6e3;
+        border-radius: 20px;
+    background-color: #78a0c6;
+    background-image: url('../images/others-marker.png');
+    background-size: 300% 80%; /*x, y*/
+    background-repeat: no-repeat;
+    background-position: -110px 80px; /*x, y*/
+    position: absolute;
+    }
+    .personal-info-name{
+        top: 0px;
+        left: 40px;
+        position:absolute;
+        font-size: 24px;
+    }
+    .personal-info-last{    
+        position:absolute;
+        font-size: 24px;
+        top: 50px;
+        left: 40px;
+    }
+    .personal-info-email{  
+          position:absolute;
+          font-size: 24px;
+          top: 100px;
+          left: 40px;
+        }
+    .personal-info-one{   
+         position:absolute;
+         font-size: 24px;
+         top: 150px;
+         left: 40px;
+        }
+    .personal-info-two{    
+        position:absolute;
+        font-size: 24px;
+        top: 200px;
+        left: 5px;
+    }
+    .personal-info-three{ 
+           position:absolute;
+           top: 330px;
+           left: 40px;
+           font-size: 24px;
+           word-break: break-all;
+           white-space: pre-line;
+        }
+    .personal-info-four{   
+         position:absolute;
+         font-size: 24px;
+         top: 430px;
+         left: 40px;
+        }
 
 
 }

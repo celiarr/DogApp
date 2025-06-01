@@ -44,12 +44,10 @@
   color: white;
 
 }
-.smiling-lady{
+.img-four{
   background-size: 100% 100%;
-  background: url('../images/smiling-blonde-young-woman-holding-map-hand-showing-mobile-blank-white-screen.jpg');
+  background: url('../images/signUp-2-img.png');
   background-repeat: no-repeat;
-  color: white;
-
 }
 @media only screen and (min-width: 300px) and (max-width:500px){
 
@@ -59,11 +57,7 @@
     background-size: 100% 100%;
 
   }
-  .smiling-lady{
-    width: 100%;
-    height: 320px;
-    background-size: 100% 100%; 
-  }
+  
 .logo-img-home{ 
   width: 50px;
   height: 50px;
@@ -141,41 +135,61 @@ p{
   padding-right: 20px;
   padding-bottom: 20px;
   position: absolute; 
-  margin-top: 600px; 
+  margin-top: 10px; 
   left: 0;
   background:#e8f4f8;
   color: #286e84;
   height: 300px;
   width: 300px;  
 }
-.img-two{
+.smiling-lady{
   height: 200px;
   width: 200px; 
   position: absolute; 
-  margin-top: 1000px; 
+  margin-top: 350px; 
+ right:0; 
+}
+.paw-img{
+  height: 100px;
+ width: 100px; 
+  position: absolute; 
+  margin-top: 960px; 
+ right:0; 
+
+ }
+.img-two{
+  height: 130px;
+  width: 130px; 
+  position: absolute; 
+  margin-top: 1700px; 
  right:0;
+}
+.img-three{
+  height: 250px;
+  width: 250px; 
+  position: absolute; 
+  margin-top: 950px; 
+ right:0;
+}
+
+.img-four{
+  background-image: url('../images/signUp-2-img.png');
+  height: 270px;
+  width: 270px;
+  right:0;
+  margin-top: 1600px; 
+  position: absolute;
+  background-size: cover;
+  background-position: 0% 50%; /* x y*/
+
+
 }
 .home-info-header-two{
   font-size: calc(20px + 0.390625vw);;
   text-align: center;
   color: #286e84;
 }
-.home-info-one{
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  position: absolute; 
-  margin-top: 20px; 
-  left: 0;
-  background:#e8f4f8;
-  color: #286e84;
-  height: fit-content;
-  width: 300px;  
-  font-size: 13px;
-  text-align: center;
 
-}
 .home-info-three{
   padding-top: 20px;
   padding-left: 30px;
@@ -189,7 +203,7 @@ p{
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 1300px; 
+  margin-top: 600px; 
 
 }
 .home-img-three{
@@ -212,7 +226,7 @@ p{
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 2000px; 
+  margin-top: 1250px; 
 
 }
 .home-info-five{
@@ -250,10 +264,7 @@ p{
 .home-info-header{
   font-size: 13px;
 }
-.paw-img{
- height: 100px;
-width: 100px;
-}
+
 .img-container{
   position: absolute; 
 margin-left: 150px;
@@ -278,9 +289,11 @@ margin-top: 300px;
 
   }
   .smiling-lady{
-    width: 100%;
-    height: 550px;
-    background-size: 100% 100%; 
+    height: 200px;
+    width: 200px; 
+    position: absolute; 
+    margin-top: 350px; 
+   right:0; 
   }
 .logo-img-home{ /**/
   width: 70px;
@@ -352,39 +365,39 @@ p{
   white-space: pre;
 
 }
+.img-four{
+  background-image: url('../images/signUp-2-img.png');
+  height: 320px;
+  width: 320px;
+  right:0;
+  margin-top: 1600px; 
+  position: absolute;
+  background-size: cover;
+  background-position: -15% 50%; /* x y*/
 
+
+}
+.img-three{
+  height: 280px;
+  width: 280px; 
+  position: absolute; 
+  margin-top: 950px; 
+ right:0;
+}
 .home-info-two{
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 20px;
   padding-bottom: 20px;
   position: absolute; 
-  margin-top: 600px; 
+  margin-top: 10px; 
   left: 0;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 15px;
-  text-align: center;
-
+  height: 300px;
+  width: 300px;  
 }
-.home-info-one{
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  position: absolute; 
-  margin-top: 20px; 
-  left: 0;
-  background:#e8f4f8;
-  color: #286e84;
-  height: fit-content;
-  width: 500px;  
-  font-size: 15px;
-  text-align: center;
 
-}
 .home-info-three{
   padding-top: 20px;
   padding-left: 30px;
@@ -392,13 +405,13 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 15px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 1400px; 
+  margin-top: 600px; 
 
 }
 
@@ -409,13 +422,13 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 15px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 2000px; 
+  margin-top: 1250px; 
 
 }
 .home-info-five{
@@ -425,23 +438,44 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 15px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
   margin-top: 2600px; 
 
 }
+.home-info-six{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 3000px; 
+
+}
 
 .home-info-header{
   font-size: 15px;
 }
+
 .paw-img{
- height: 100px;
-width: 100px;
-}
+  height: 100px;
+ width: 100px; 
+  position: absolute; 
+  margin-top: 960px; 
+ right:0; 
+
+ }
 .img-container{
   position: absolute; 
 margin-left: 150px;
@@ -463,9 +497,11 @@ margin-top: 300px;
 
   }
   .smiling-lady{
-    width: 100%;
-    height: 800px;
-    background-size: 100% 100%; 
+    height: 200px;
+    width: 200px; 
+    position: absolute; 
+    margin-top: 350px; 
+   right:0; 
   }
 .logo-img-home{ /**/
   width: 90px;
@@ -535,22 +571,37 @@ p{
   white-space: pre;
 
 }
+.img-three{
+  height: 280px;
+  width: 280px; 
+  position: absolute; 
+  margin-top: 950px; 
+ right:0;
+}
+.img-four{
+  background-image: url('../images/signUp-2-img.png');
+  height: 320px;
+  width: 320px;
+  right:0;
+  margin-top: 1600px; 
+  position: absolute;
+  background-size: cover;
+  background-position: -15% 50%; /* x y*/
 
+
+}
 .home-info-two{
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 20px;
   padding-bottom: 20px;
   position: absolute; 
-  margin-top: 600px; 
+  margin-top: 10px; 
   left: 0;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 20px;
-  text-align: center;
-
+  height: 300px;
+  width: 300px;  
 }
 .home-info-one{
   padding-top: 20px;
@@ -575,13 +626,13 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 17px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 1400px; 
+  margin-top: 600px; 
 
 }
 
@@ -592,13 +643,13 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 17px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
-  margin-top: 2000px; 
+  margin-top: 1250px; 
 
 }
 .home-info-five{
@@ -608,23 +659,42 @@ p{
   padding-bottom: 20px;
   background:#e8f4f8;
   color: #286e84;
-  height: 500px;
-  width: 500px;  
-  font-size: 17px;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
   text-align: center;
   position: absolute; 
   left: 0;
   margin-top: 2600px; 
 
 }
+.home-info-six{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background:#e8f4f8;
+  color: #286e84;
+  height: 300px;
+  width: 300px;  
+  font-size: 13px;
+  text-align: center;
+  position: absolute; 
+  left: 0;
+  margin-top: 3000px; 
 
+}
 .home-info-header{
   font-size: 17px;
 }
 .paw-img{
- height: 100px;
-width: 100px;
-}
+  height: 100px;
+ width: 100px; 
+  position: absolute; 
+  margin-top: 960px; 
+ right:0; 
+
+ }
 .img-container{
   position: absolute; 
 margin-left: 150px;
