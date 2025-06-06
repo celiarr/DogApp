@@ -23,8 +23,22 @@
 <div class="row-two">
   <div class="map" id="mapp"> <input type="image" src="../public/images/openSideBar.png" id="sidebar-button" class="sidebar-button" onclick="openMessageBox()"/>
   </div>
-    <div class="message-sidebar" id="message-sidebar"><button onclick="" class="exit-sidebar"> X </button> 
+        <!-- -- vv nav bar starts? vv --->
+    <div class="message-sidebar" id="message-sidebar">
+      <button onclick="" class="exit-sidebar"> X </button> 
+<img class="profile-img" src="../public/images/one.png">
+<p>User:</p>
+<p>Pet's Name:</p>
+
+<p style="white-space: pre-line;">pick a distance to display dogs within that radius:</p>
+
+      <button>0.2 miles</button>
+      <button>0.3 miles</button>
+    <button>0.4 miles</button>
+    <hr>
+<p>Send a Message:</p>
 <p>Alerts Sent:</p>
+</p>
 <div class="alert-sent" id="alert-sent">
   <img class="alerts-dog-img" id="alert-sent-img"> <button>Delete</button>
   </div>
@@ -32,17 +46,11 @@
 <p>Alerts Received:</p>
 <img class="alerts-dog-img" id="alert-received-img"> <button>Delete</button> <button onclick="messageOptions()">respond with a message</button>
 </div>
-    <p>pick a distance to display dogs within that radius</p>
-
-      <button>0.2 miles</button>
-      <button>0.3 miles</button>
-    <button>0.4 miles</button>
-    <hr>
+    
     
     </div>
     <!-- -- map section ---> 
-   <div id="map"></div>
-<button onclick="messageOptions()">test</button>
+   <div id="map" ></div>
 
 </div>
 </div>

@@ -1,6 +1,6 @@
 .message-sidebar{
-background-color: aquamarine;
-      top: 1;
+    background: linear-gradient(to right, rgb(182, 230, 244), black); 
+    top: 1;
       left:0;
       z-index: 1;
       height: fit-content;
@@ -8,7 +8,7 @@ background-color: aquamarine;
       transition: none;
       transform: translateX(-100%);
       overflow: hidden;  
-
+    color: black;
       position: static; 
 }
 .map{
@@ -62,7 +62,7 @@ box-shadow: 20px 20px 50px grey;
     color: white;
 }
 .alert-options{
-    border: solid;
+border: solid;
 display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto auto;
@@ -86,3 +86,171 @@ html{
         color: rgb(238,236,233);
     }
     
+.profile-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+button{ border-radius: 25px;
+    border: 0.5px solid black;
+}
+    button:active{
+        background: rgb(238,236,233);
+        color: rgb(238,236,233);
+
+    }
+
+    @media only screen and (min-width: 300px) and (max-width:500px){
+       
+        .profile-img{
+            height: 100px;
+            width: 100px;
+        }
+        
+        p{margin-left: auto;
+        margin-top: 10px;
+        font-size: 13px;
+
+         }
+         button{
+            font-size: 13px;
+         }
+         #map{
+position: absolute;
+top:100px;
+right:15px;
+height: 300px;
+width: 300px;
+         }
+   
+    }
+ 
+ 
+ @media only screen and (min-width: 500px) and (max-width:650px){
+    .profile-img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    p{margin-left: auto;
+    margin-top: 10px;
+    font-size: 15px;
+
+     }
+     button{
+        font-size: 15px;
+     }
+     #map{
+        position: absolute;
+        top:100px;
+        right:15px;
+        height: 350px;
+        width: 350px;
+                 }
+  
+ }
+ @media only screen and (min-width: 650px) and (max-width:800px){
+    .profile-img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    p{margin-left: auto;
+    margin-top: 10px;
+    font-size: 17px;
+
+     }
+     button{
+        font-size: 17px;
+     }
+   
+     #map{
+        position: absolute;
+        top:100px;
+        right:15px;
+        height: 450px;
+        width: 450px;
+                 }
+ }
+ 
+ @media only screen and (min-width: 800px) and (max-width:1000px){ 
+    .profile-img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    p{margin-left: auto;
+    margin-top: 10px;
+    font-size: 18px;
+
+
+     }
+     button{
+        font-size: 18px;
+     }
+     #map{
+        position: absolute;
+        top:100px;
+        right:15px;
+        height: 500px;
+        width: 500px;
+                 }
+ 
+ 
+ }
+ @media only screen and (min-width: 1000px) and (max-width:1300px){ 
+    .profile-img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    p{margin-left: auto;
+    margin-top: 10px;
+    font-size: 18px;
+
+
+     }
+     button{
+        font-size: 18px;
+     }
+     #map{
+        position: absolute;
+        top:100px;
+        right:15px;
+        height: 500px;
+        width: 500px;
+                 }
+ 
+ }
+ 
+ @media only screen and (min-width: 1300px) and (max-width:3000px){ 
+ 
+    .profile-img{
+        height: 100px;
+        width: 100px;
+    }
+    
+    p{margin-left: auto;
+    margin-top: 10px;
+    font-size: 24px;
+
+
+     }
+     button{
+        font-size: 24px;
+    }
+ 
+            
+    #map{
+        position: absolute;
+        top:100px;
+        right:15px;
+        height: 500px;
+        width: 500px;
+                 }  
+ 
+ 
+ }
+ 
