@@ -12,19 +12,26 @@ function openMessageBox(){
     }
     }, {once : true});
     }
- 
+ let count = 0;
+  
+ function idGenerator(){
+  return count++;
+ }
+
 
 
     ///for printing incoming and out messages
     $("#alert-sent").append(`<hr><div class="alert-sent-0" id="alert-sent-0"><img class="alerts-dog-img"> <button onclick="deleteMessage()">Delete</button> </div>`);
     $("#alert-received").append(`<hr><div class="alert-received-0" id="alert-received-0"><img class="alerts-dog-img" id="alert-received-img"> <button onclick="deleteMessage()">Delete</button> <button onclick="messageOptions();">respond with a message</button></div>`);
   
-  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
     function messageOptions() {
-$("#message-sidebar").append(`<div class="alert-options" id="alert-options"><a class="options-bttn" onclick="hideMessageOptions()" style="display: inline;">Hello, I am near and would like to avoid crossing paths</a><a class="options-bttn" onclick=" hideMessageOptions()" style="display: inline;">Hello, I am near and have a friendly dog. I don’t mind crossing paths</a></div>`)
+$("#message-sidebar").append(`<div class="alert-options" id="alert-options"><a class="options-bttn" onclick="hideMessageOptions()" style="display: inline;">Hello, I am close and would like to avoid crossing paths</a><a class="options-bttn" onclick=" hideMessageOptions()" style="display: inline;">Hello, I am near and have a friendly dog. I don’t mind crossing paths</a></div>`)
 //$("#alert-received").append(`<div class="message-options" id="message-options"><p>Message Options: </p><a class="options-bttn" onclick=" hideMessageOptions()">Hello, I am 0.2 miles away from you.</a><hr><a class="options-bttn"  onclick=" hideMessageOptions()">Hello, I am near and would like to avoid crossing paths</a><hr><a class="options-bttn"  onclick=" hideMessageOptions()">Hello, I am near and have a friendly dog. I don’t mind crossing paths</a></div>`).show();
 }
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 function hideMessageOptions(){
 $("#message-options").hide();
 $("#alert-options").hide();

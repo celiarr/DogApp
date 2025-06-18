@@ -11,6 +11,10 @@ var signUpTwoRouter = require('./routes/signUp-2');
 var mapRouter = require('./routes/map');
 var homeRouter = require('./routes/home');
 
+if(process.env.NODE_ENV === 'development') {
+  require("dotenv").config();
+}
+
 var app = express();
 
 // view engine setup
