@@ -19,22 +19,30 @@ function openMessageBox(){
  }
 
 
+function displayMssgBox(){
+let id = idGenerator();
+  $(`<div class='alert-options'><button onclick='hideMessageOptions(this.id, this.innerHTML)' style='display: inline;' class='options-bttn' id='mssg-${id}'>Hello, I am close and would like to avoid crossing paths </button><hr><button class='options-bttn' onclick='hideMessageOptions(this.id, this.innerHTML)' style='display: inline;' id='mssg-${id}'>Hello, I am near and have a friendly dog. I don’t mind crossing paths</button></div>`).insertAfter("#message-sidebar")
 
-    ///for printing incoming and out messages
-    $("#alert-sent").append(`<hr><div class="alert-sent-0" id="alert-sent-0"><img class="alerts-dog-img"> <button onclick="deleteMessage()">Delete</button> </div>`);
-    $("#alert-received").append(`<hr><div class="alert-received-0" id="alert-received-0"><img class="alerts-dog-img" id="alert-received-img"> <button onclick="deleteMessage()">Delete</button> <button onclick="messageOptions();">respond with a message</button></div>`);
-  
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  
-    function messageOptions() {
-$("#message-sidebar").append(`<div class="alert-options" id="alert-options"><a class="options-bttn" onclick="hideMessageOptions()" style="display: inline;">Hello, I am close and would like to avoid crossing paths</a><a class="options-bttn" onclick=" hideMessageOptions()" style="display: inline;">Hello, I am near and have a friendly dog. I don’t mind crossing paths</a></div>`)
-//$("#alert-received").append(`<div class="message-options" id="message-options"><p>Message Options: </p><a class="options-bttn" onclick=" hideMessageOptions()">Hello, I am 0.2 miles away from you.</a><hr><a class="options-bttn"  onclick=" hideMessageOptions()">Hello, I am near and would like to avoid crossing paths</a><hr><a class="options-bttn"  onclick=" hideMessageOptions()">Hello, I am near and have a friendly dog. I don’t mind crossing paths</a></div>`).show();
+
 }
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//send message selected to database 
+const sendMessage = (message) => {
+  $.ajax({
+      type: "POST",
+      url: "/map/getMessage", 
+      async: false,
+        data : {
+           "message" :  JSON.stringify(message)}
+     
+    });
+}
 
-function hideMessageOptions(){
-$("#message-options").hide();
+
+function hideMessageOptions(className,message){
 $("#alert-options").hide();
+sendMessage(message);
+
+
 }
 
 function deleteMessage(){

@@ -20,9 +20,20 @@ head
   .row-two
     #mapp.map
       input#sidebar-button.sidebar-button(type='image' src='/images/openSideBar.png' onclick='openMessageBox()')
+    // -- vv nav bar starts? vv -
     #message-sidebar.message-sidebar
       button.exit-sidebar(onclick='')  X 
+      img.profile-img(src='/images/one.png')
+      p User:
+      p Pet&apos;s Name:
+      p(style='white-space: pre-line;') pick a distance to display dogs within that radius:
+      button 0.2 miles
+      button 0.3 miles
+      button 0.4 miles
+      hr
+      p Send a Message:
       p Alerts Sent:
+      p
       #alert-sent.alert-sent
         img#alert-sent-img.alerts-dog-img
         button Delete
@@ -30,14 +41,8 @@ head
         p Alerts Received:
         img#alert-received-img.alerts-dog-img
         button Delete
-        button(onclick='messageOptions()') respond with a message
-      p pick a distance to display dogs within that radius
-      button 0.2 miles
-      button 0.3 miles
-      button 0.4 miles
-      hr
+        button(onclick='displayMssgBox()') respond with a message
     // -- map section -
     #map
-    button(onclick='messageOptions()') test
-script(type='text/javascript' src='../public/javascripts/map.js')
+script(type='text/javascript' src='/javascripts/map.js')
 script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDQCtI37-6bAv9jWw-iYC895OoUogO5PdQ&map_ids=53f52a9c8d6ca828&callback=initMap')

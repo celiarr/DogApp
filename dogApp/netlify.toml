@@ -1,0 +1,9 @@
+# netlify.toml
+[build]
+functions = "functions" # Directory where your Netlify Functions are located
+
+[[redirects]]
+  force = true
+  from = "/api/*"
+  status = 200
+  to = "/.netlify/functions/api/:splat"

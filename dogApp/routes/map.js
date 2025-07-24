@@ -10,4 +10,13 @@ router.get('/', function(request, response) {
     
     });
 
+    router.post('/getMessage',  async function(request,response){  
+   
+        let message = JSON.parse(request.body["message"]);
+        console.log(message)
+        response.redirect('/map');
+
+   
+    });
+
     module.exports = router;
