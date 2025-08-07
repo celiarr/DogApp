@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', signUpOneRouter);
+app.use('/', mapRouter); ////first page that will be shown when deploying
 app.use('/users', usersRouter);
 app.use('/signUp-1', signUpOneRouter);
 app.use('/signUp-2', signUpTwoRouter);
