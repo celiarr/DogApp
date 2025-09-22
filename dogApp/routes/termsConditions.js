@@ -1,13 +1,8 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
+router.get("/", function (request, response) {
+  response.render("../views/public/termsConditions");
+});
 
-router.get('/', function(request, response) {
-    response.render("../views/public/termsConditions");
-    
-    });
-
-
-
-
-    module.exports = router;
+module.exports = router;

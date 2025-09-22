@@ -1,22 +1,39 @@
-<div class="terms-center">
-  <div class="title">Terms & Conditions </div>
-<div class="terms">Terms and Conditions for DogLovers App <br><br>
-<b>1. ACCEPTANCE OF TERMS</b><br>
-
-By using the DogLovers app ("the App"), you agree to abide by the following terms and conditions. <br>
-
-If you do not agree to these terms, do not use this App. <br><br>
-
-<b>2. Location Services</b><br>
-Our App uses location services to provide certain features. To use these features,<br>
-you must enable location services on your device. Please note that turning on location services may increase the risk of harm or injury, <br>
-particularly if you are distracted by your device while walking or if you use the App in unsafe areas. You are responsible for using your device safely and responsibly.
-
-<label class="container">
-<input type="checkbox">
-check here to indicate you have read and agreed to terms and conditions
-<span class="checkmark"></span>
-</label>
+<!DOCTYPE html>
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/template.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/signUp.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<div class="grid-container">
+  <!-- -- navbar --->
+  <div class="row-one">
+    <h2 class="app-name">Woolf Alarm</h2><img class="menu-img logo-img" src="/images/dog.png">
+  </div>
+  <!-- -- middle --->
+  <div class="row-two">
+    <div class="login-form">
+      <form action="/signUp-1/createUser" method="POST">
+        <div class="input-email">
+          <p style="margin-right: auto;">Email</p><br>
+          <input class="login-input" id="email" style="margin-right: auto;" name="email"><br><br>
+        </div>
+        <div class="input-password">
+          <p style="margin-right: auto;">Password</p>
+          <input class="login-input" id="password" style="margin-right: auto;" name="password"><br><br>
+        </div>
+        <button class="continue-bttn login-bttns signup-bttn" id="submit" type="submit">Sign up</button><a onclick="event.preventDefault();this.closest('form').submit();"> </a>
+      </form><a href="/signUp-1">
+        <button class="continue-bttn login-bttns login-bttn" id="submit" type="button">Login</button></a>
+    </div>
+    <div id="popUp-box">
+      <button class="popUp-bttn" id="popUp-bttn" onclick="hidePopUp()">x</button>
+      <p class="popUp-text">User already exists</p>
+    </div>
+  </div>
 </div>
-
-</div>
+<script type="text/javascript" src="/javascripts/signUp.js"></script>

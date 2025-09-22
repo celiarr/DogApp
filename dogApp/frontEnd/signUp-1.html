@@ -1,42 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <title>Sign Up-1</title>
+  <title>Login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../public/stylesheets/template.css">
-  <link rel="stylesheet" type="text/css" href="../public/stylesheets/login.css">
-  <link rel="stylesheet" type="text/css" href="../public/stylesheets/signUp.css">
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/template.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/signUp.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body>
-    <div class="grid-container">
-      <!-- -- navbar --->
-<div class="row-one">
-  <h2 class="app-name">Woolf Alarm</h2>
-  <img class="menu-img logo-img" src="../public/images/dog.png">
-
-
-</div>
-      <!-- -- middle --->
-<div class="row-two">
-  <div class="login-form">
-    <form action="" method="POST">
-      <div class="input-container-1">
-      <p>E-mail:</p>
-      <input id="email" class="signUp-input"><br><br>
+<div class="grid-container">
+  <!-- -- navbar --->
+  <div class="row-one">
+    <h2 class="app-name">Woolf Alarm</h2><img class="menu-img logo-img" src="/images/dog.png">
+  </div>
+  <!-- -- middle --->
+  <div class="row-two">
+    <div class="login-form">
+      <form action="/signUp-1/createUser" method="POST">
+        <div class="input-email">
+          <p style="margin-right: auto;">Email</p><br>
+          <input class="login-input" id="email" style="margin-right: auto;" name="email"><br><br>
+        </div>
+        <div class="input-password">
+          <p style="margin-right: auto;">Password</p>
+          <input class="login-input" id="password" style="margin-right: auto;" name="password"><br><br>
+        </div>
+        <button class="continue-bttn login-bttns signup-bttn" id="submit" type="submit">Sign up</button><a onclick="event.preventDefault();this.closest('form').submit();"> </a>
+      </form><a href="/signUp-1">
+        <button class="continue-bttn login-bttns login-bttn" id="submit" type="button">Login</button></a>
     </div>
-    <div class="input-container-2">
-      <p>Password: </p>
-      <input  id="password" class="signUp-input"><br><br>
-      </div>
-      <button class="continue-bttn login-bttns continue-bttn-1" type="button" id="submit">Continue</button>
-      <a onclick="event.preventDefault();this.closest('form').submit();"></a>
-    </form>
-  </div> 
+  </div>
 </div>
-
-</div>
-</body>
-</html>
+<script type="text/javascript" src="/javascripts/signUp.js"></script>

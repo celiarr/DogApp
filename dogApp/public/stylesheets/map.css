@@ -70,8 +70,8 @@ grid-template-columns: auto;
 grid-template-rows: auto auto;
 margin-left: 145px;
 margin-top: 500px;
-height: fit-content;
-width: fit-content;
+height: 150px;
+ width: 280px;
 position: relative; 
 
 }
@@ -128,18 +128,41 @@ width: 300px;
          }
 
         
-         .alert-options{
+         .alert-options{ /*message box*/
             background-color: gainsboro;
             display: grid;
             grid-template-columns: auto;
             grid-template-rows: auto auto;
             margin-left: 145px;
             margin-top: 100px;
-            height: fit-content;
-            width: fit-content;
+            height: 150px;
+            width: 280px;
             position: relative; 
             z-index: 2;
 
+            } /*buttons in message box*/
+            .options-bttn{
+                border: none;
+                background: none;
+                font-size: 13px;
+                height: fit-content;
+                width: fit-content;
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+            
+            }
+            .options-bttn:active{
+                background:  none;           
+                color: gainsboro;
+            }
+            .hr-style{
+                border: none;
+                border-width: 2.3px;
+                border-style: solid;
+                border-color: rgb(233, 233, 233);
+                opacity: 1;
+                
             }
    
     }
@@ -166,6 +189,40 @@ width: 300px;
         height: 350px;
         width: 350px;
                  }
+                 .alert-options{ /*message box*/
+                    background-color: gainsboro;
+                    display:block;
+                    margin-left: 145px;
+                    margin-top: 100px;
+                    height: 150px;
+                    width: 280px;
+                    position: relative; 
+                    z-index: 2;
+        
+                    } /*buttons in message box*/
+                    .options-bttn{
+                        border: none;
+                        background: none;
+                        font-size: 13px;
+                        height: fit-content;
+                        width: fit-content;
+                        text-decoration: none;
+                        color: black;
+                        cursor: pointer;
+                    
+                    }
+                    .options-bttn:active{
+                        background:  none;           
+                        color: gainsboro;
+                    }
+                    .hr-style{
+                        border: none;
+                        border-width: 2.3px;
+                        border-style: solid;
+                        border-color: rgb(233, 233, 233);
+                        opacity: 1;
+                        
+                    }
   
  }
  @media only screen and (min-width: 650px) and (max-width:800px){
@@ -190,6 +247,40 @@ width: 300px;
         height: 450px;
         width: 450px;
                  }
+                 .alert-options{ /*message box*/
+                    background-color: gainsboro;
+                    display:block;
+                    margin-left: 145px;
+                    margin-top: 100px;
+                    height: 150px;
+                    width: 280px;
+                    position: relative; 
+                    z-index: 2;
+        
+                    } /*buttons in message box*/
+                    .options-bttn{
+                        border: none;
+                        background: none;
+                        font-size: 13px;
+                        height: fit-content;
+                        width: fit-content;
+                        text-decoration: none;
+                        color: black;
+                        cursor: pointer;
+                    
+                    }
+                    .options-bttn:active{
+                        background:  none;           
+                        color: gainsboro;
+                    }
+                    .hr-style{
+                        border: none;
+                        border-width: 2.3px;
+                        border-style: solid;
+                        border-color: rgb(233, 233, 233);
+                        opacity: 1;
+                        
+                    }
  }
  
  @media only screen and (min-width: 800px) and (max-width:1000px){ 
@@ -215,7 +306,40 @@ width: 300px;
         height: 500px;
         width: 500px;
                  }
- 
+                 .alert-options{ /*message box*/
+                    background-color: gainsboro;
+                    display:block;
+                    margin-left: 145px;
+                    margin-top: 100px;
+                    height: 200px;
+                    width: 280px;
+                    position: relative; 
+                    z-index: 2;
+        
+                    } /*buttons in message box*/
+                    .options-bttn{
+                        border: none;
+                        background: none;
+                        font-size: 20px;
+                        height: fit-content;
+                        width: fit-content;
+                        text-decoration: none;
+                        color: black;
+                        cursor: pointer;
+                    
+                    }
+                    .options-bttn:active{
+                        background:  none;           
+                        color: gainsboro;
+                    }
+                    .hr-style{
+                        border: none;
+                        border-width: 2.3px;
+                        border-style: solid;
+                        border-color: rgb(233, 233, 233);
+                        opacity: 1;
+                        
+                    }
  
  }
  @media only screen and (min-width: 1000px) and (max-width:1300px){ 
@@ -240,6 +364,40 @@ width: 300px;
         height: 500px;
         width: 500px;
                  }
+                 .alert-options{ /*message box*/
+                    background-color: gainsboro;
+                    display:block;
+                    margin-left: 145px;
+                    margin-top: 100px;
+                    height: 200px;
+                    width: 280px;
+                    position: relative; 
+                    z-index: 2;
+        
+                    } /*buttons in message box*/
+                    .options-bttn{
+                        border: none;
+                        background: none;
+                        font-size: 20px;
+                        height: fit-content;
+                        width: fit-content;
+                        text-decoration: none;
+                        color: black;
+                        cursor: pointer;
+                    
+                    }
+                    .options-bttn:active{
+                        background:  none;           
+                        color: gainsboro;
+                    }
+                    .hr-style{
+                        border: none;
+                        border-width: 2.3px;
+                        border-style: solid;
+                        border-color: rgb(233, 233, 233);
+                        opacity: 1;
+                        
+                    }
  
  }
  
@@ -269,6 +427,39 @@ width: 300px;
         width: 500px;
                  }  
  
- 
+                 .alert-options{ /*message box*/
+                    background-color: gainsboro;
+                    display:block;
+                    margin-left: 145px;
+                    margin-top: 100px;
+                    height: 200px;
+                    width: 280px;
+                    position: relative; 
+                    z-index: 2;
+        
+                    } /*buttons in message box*/
+                    .options-bttn{
+                        border: none;
+                        background: none;
+                        font-size: 20px;
+                        height: fit-content;
+                        width: fit-content;
+                        text-decoration: none;
+                        color: black;
+                        cursor: pointer;
+                    
+                    }
+                    .options-bttn:active{
+                        background:  none;           
+                        color: gainsboro;
+                    }
+                    .hr-style{
+                        border: none;
+                        border-width: 2.3px;
+                        border-style: solid;
+                        border-color: rgb(233, 233, 233);
+                        opacity: 1;
+                        
+                    }
  }
  

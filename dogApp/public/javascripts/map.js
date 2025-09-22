@@ -21,7 +21,7 @@ function openMessageBox(){
 
 function displayMssgBox(){
 let id = idGenerator();
-  $(`<div class='alert-options'><button onclick='hideMessageOptions(this.id, this.innerHTML)' style='display: inline;' class='options-bttn' id='mssg-${id}'>Hello, I am close and would like to avoid crossing paths </button><hr><button class='options-bttn' onclick='hideMessageOptions(this.id, this.innerHTML)' style='display: inline;' id='mssg-${id}'>Hello, I am near and have a friendly dog. I don’t mind crossing paths</button></div>`).insertAfter("#message-sidebar")
+  $(`<div class='alert-options' id='alert-options-${id}'><button onclick='hideMessageOptions(this.id, this.innerHTML, "alert-options-${id}")' style='display: inline;' class='options-bttn' id='mssg-${id}'>Hello, I am close and would like to avoid crossing paths</button><hr class="hr-style"><button class='options-bttn' onclick='hideMessageOptions(this.id, this.innerHTML,"alert-options-${id}")' style='display: inline;' id='mssg-${id}'>Hello, I am near and have a friendly dog. I don’t mind crossing paths</button></div>`).insertAfter("#message-sidebar")
 
 
 }
@@ -35,21 +35,25 @@ const sendMessage = (message) => {
            "message" :  JSON.stringify(message)}
      
     });
+    
 }
 
 
-function hideMessageOptions(className,message){
-$("#alert-options").hide();
+function hideMessageOptions(mssgId,message,boxId){
+  $("#"+boxId).hide();
+$("#"+mssgId).hide();
+$("#"+mssgId).hide();
 sendMessage(message);
 
-
 }
+/*
+function deleteMessage(mssgId,boxId){
+  $(boxId).remove();
+$(mssgId).remove();
+$(mssgId).remove();
 
-function deleteMessage(){
-$("#alert-sent-0").remove();
-$("alert-received-0").remove();
 
-}
+}*/
 
 function initMap(){
     var map = new google.maps.Map(document.getElementById("map"), {
